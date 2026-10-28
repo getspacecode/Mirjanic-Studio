@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+/* Chrome, Safari, Edge */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+
+*::-webkit-scrollbar {
+  width: 0;
+}
+
+@theme {
+  --color-bg: #090611;
+  --color-surface: #100b1d;
+  --color-surface-2: #171026;
+  --color-border: #2a203d;
+
+  --color-fg: #f4efff;
+  --color-muted: #b0a4c7;
+
+  --color-accent: #a78bfa;
+  --color-accent-strong: #8b5cf6;
+  --color-accent-soft: #c4b5fd;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-bg text-fg;
+  margin: 0;
+}
+
+::selection {
+  background: var(--color-accent-strong);
+  color: var(--color-fg);
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 4px;
+}
