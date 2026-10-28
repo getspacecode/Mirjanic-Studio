@@ -3,10 +3,10 @@
 import { useEffect, useRef, useState } from "react";
 
 /* Pretvara Imgur link strane u direktan link na fajl:
-   imgur.com/AbC123x       -> i.imgur.com/AbC123x.mp4
+   imgur.com/AbC123x        -> i.imgur.com/AbC123x.mp4
    i.imgur.com/AbC123x.gifv -> i.imgur.com/AbC123x.mp4
-   Svi ostali linkovi (/videos/..., R2, Bunny...) ostaju isti. */
-function toDirectUrl(url) {
+   Svi ostali linkovi ostaju isti. */
+function toDirectUrl(url: string): string {
   if (!url) return url;
   const page = url.match(
     /^https?:\/\/(?:www\.)?imgur\.com\/(?!a\/|gallery\/)([A-Za-z0-9]+)$/,
@@ -18,16 +18,25 @@ function toDirectUrl(url) {
   );
 }
 
+type LoopVideoProps = {
+  src: string;
+  poster?: string;
+  loop?: boolean; // false = odigra se jednom pa ponudi replay
+  autoPlay?: boolean; // krece sam kad udje u vidno polje
+  showSound?: boolean; // dugme za zvuk
+  className?: string;
+};
+
 export default function LoopVideo({
   src,
   poster,
-  loop = true, // false = odigra se jednom pa ponudi replay
-  autoPlay = true, // krece sam kad udje u vidno polje
-  showSound = true, // dugme za zvuk
+  loop = true,
+  autoPlay = true,
+  showSound = true,
   className = "",
-}) {
-  const videoRef = useRef(null);
-  const barRef = useRef(null);
+}: LoopVideoProps) {
+  const videoRef = useRef<HTMLVideoElement>(null);
+  const barRef = useRef<HTMLDivElement>(null);
   const userPaused = useRef(false);
 
   const [playing, setPlaying] = useState(false);
@@ -59,7 +68,7 @@ export default function LoopVideo({
   /* Glatka progres linija */
   useEffect(() => {
     if (!playing) return;
-    let id;
+    let id = 0;
     const tick = () => {
       const v = videoRef.current;
       if (v && barRef.current && v.duration) {
@@ -111,7 +120,6 @@ export default function LoopVideo({
         loop={loop}
         muted
         playsInline
-        referrerPolicy="no-referrer"
         preload="metadata"
         onPlay={() => {
           setPlaying(true);
