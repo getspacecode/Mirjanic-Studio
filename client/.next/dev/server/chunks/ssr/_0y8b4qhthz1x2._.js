@@ -745,7 +745,9 @@ function WorkPage() {
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_supports$2d$color$40$7$2e$2$2e$0_$5f40$types$2b$node$40$20$2e$19$2e$43_babel$2d$plugin$2d$_69bc8fdf338b5934c4db9499814edd12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            ref: (el)=>trackRefs.current[si] = el,
+                            ref: (el)=>{
+                                trackRefs.current[si] = el;
+                            },
                             onScroll: (e)=>{
                                 const el = e.currentTarget;
                                 const slide = el.children[0];
@@ -769,12 +771,12 @@ function WorkPage() {
                                         className: `h-full w-full ${s.premium ? "overflow-hidden rounded-[1.1rem]" : ""}`
                                     }, void 0, false, {
                                         fileName: "[project]/components/pages/Work.tsx",
-                                        lineNumber: 134,
+                                        lineNumber: 136,
                                         columnNumber: 17
                                     }, this)
                                 }, src, false, {
                                     fileName: "[project]/components/pages/Work.tsx",
-                                    lineNumber: 124,
+                                    lineNumber: 126,
                                     columnNumber: 15
                                 }, this))
                         }, void 0, false, {
@@ -798,12 +800,12 @@ function WorkPage() {
                                     className: `h-2 rounded-full transition-all duration-300 ${active[si] === i ? "w-6 bg-accent-strong" : "w-2 bg-white/30"}`
                                 }, i, false, {
                                     fileName: "[project]/components/pages/Work.tsx",
-                                    lineNumber: 152,
+                                    lineNumber: 154,
                                     columnNumber: 15
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/components/pages/Work.tsx",
-                            lineNumber: 146,
+                            lineNumber: 148,
                             columnNumber: 11
                         }, this)
                     ]

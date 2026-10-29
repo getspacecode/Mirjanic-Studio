@@ -5,7 +5,7 @@ import LoopVideo from "../usables/LoopVideo";
 import TypingText from "../usables/TypingText";
 
 export default function WorkPage() {
-  const trackRefs = useRef([]);
+  const trackRefs = useRef<(HTMLDivElement | null)[]>([]);
   const [active, setActive] = useState([0, 0, 0, 0]);
 
   const sections = [
@@ -105,10 +105,12 @@ export default function WorkPage() {
           </div>
 
           <div
-            ref={(el) => (trackRefs.current[si] = el)}
+            ref={(el) => {
+              trackRefs.current[si] = el;
+            }}
             onScroll={(e) => {
               const el = e.currentTarget;
-              const slide = el.children[0];
+              const slide = el.children[0] as HTMLElement | undefined;
               if (!slide) return;
               const i = Math.round(el.scrollLeft / (slide.offsetWidth + 16));
               setActive((prev) => {
@@ -154,7 +156,7 @@ export default function WorkPage() {
                 aria-label={`Go to video ${i + 1}`}
                 onClick={() => {
                   const el = trackRefs.current[si];
-                  const slide = el?.children[0];
+                  const slide = el?.children[0] as HTMLElement | undefined;
                   if (!el || !slide) return;
                   el.scrollTo({
                     left: i * (slide.offsetWidth + 16),

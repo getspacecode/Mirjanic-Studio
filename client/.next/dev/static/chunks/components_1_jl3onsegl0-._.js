@@ -862,11 +862,11 @@ var _s = __turbopack_context__.k.signature();
 function WorkPage() {
     _s();
     const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_supports$2d$color$40$7$2e$2$2e$0_$5f40$types$2b$node$40$20$2e$19$2e$43_babel$2d$plugin$2d$_69bc8fdf338b5934c4db9499814edd12$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(6);
-    if ($[0] !== "e151e90d35cb3b651d41880e422ce1575f06e8425b40d25bfed4483eddadf4af") {
+    if ($[0] !== "034cea943ee060df767e24c719d96f3ffbe472b96e626bea8848d349791a0755") {
         for(let $i = 0; $i < 6; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "e151e90d35cb3b651d41880e422ce1575f06e8425b40d25bfed4483eddadf4af";
+        $[0] = "034cea943ee060df767e24c719d96f3ffbe472b96e626bea8848d349791a0755";
     }
     let t0;
     if ($[1] === Symbol.for("react.memo_cache_sentinel")) {
@@ -1048,7 +1048,9 @@ function WorkPage() {
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_supports$2d$color$40$7$2e$2$2e$0_$5f40$types$2b$node$40$20$2e$19$2e$43_babel$2d$plugin$2d$_69bc8fdf338b5934c4db9499814edd12$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     ref: {
-                                        "WorkPage[sections.map() > <div>.ref]": (el)=>trackRefs.current[si] = el
+                                        "WorkPage[sections.map() > <div>.ref]": (el)=>{
+                                            trackRefs.current[si] = el;
+                                        }
                                     }["WorkPage[sections.map() > <div>.ref]"],
                                     onScroll: {
                                         "WorkPage[sections.map() > <div>.onScroll]": (e)=>{
@@ -1082,12 +1084,12 @@ function WorkPage() {
                                                     className: `h-full w-full ${s.premium ? "overflow-hidden rounded-[1.1rem]" : ""}`
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/pages/Work.tsx",
-                                                    lineNumber: 99,
+                                                    lineNumber: 101,
                                                     columnNumber: 547
                                                 }, this)
                                             }, src, false, {
                                                 fileName: "[project]/components/pages/Work.tsx",
-                                                lineNumber: 99,
+                                                lineNumber: 101,
                                                 columnNumber: 74
                                             }, this)
                                     }["WorkPage[sections.map() > s.videos.map()]"])
@@ -1117,13 +1119,13 @@ function WorkPage() {
                                                 className: `h-2 rounded-full transition-all duration-300 ${active[si] === i_1 ? "w-6 bg-accent-strong" : "w-2 bg-white/30"}`
                                             }, i_1, false, {
                                                 fileName: "[project]/components/pages/Work.tsx",
-                                                lineNumber: 101,
+                                                lineNumber: 103,
                                                 columnNumber: 72
                                             }, this)
                                     }["WorkPage[sections.map() > s.videos.map()]"])
                                 }, void 0, false, {
                                     fileName: "[project]/components/pages/Work.tsx",
-                                    lineNumber: 100,
+                                    lineNumber: 102,
                                     columnNumber: 67
                                 }, this)
                             ]
