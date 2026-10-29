@@ -113,7 +113,7 @@ export default function AboutPage() {
           {/* Text */}
           <div className="text-2xl">
             <TypingText
-              words={["Video editor", "Thumbnails design", "After Effect"]}
+              words={["Video editing", "Thumbnail design", "Motion design"]}
               loop={true}
               once={false}
               amount={0.6}

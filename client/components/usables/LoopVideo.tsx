@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
+import { motion, useReducedMotion } from "motion/react";
 
 /* Pretvara Imgur link strane u direktan link na fajl:
    imgur.com/AbC123x        -> i.imgur.com/AbC123x.mp4
@@ -70,6 +71,7 @@ export default function LoopVideo({
   const barRef = useRef<HTMLDivElement>(null);
   const entryRef = useRef<Entry | null>(null);
   const userPaused = useRef(false);
+  const reduce = useReducedMotion();
 
   const [playing, setPlaying] = useState(false);
   const [ended, setEnded] = useState(false);
@@ -175,7 +177,11 @@ export default function LoopVideo({
   };
 
   return (
-    <div
+    <motion.div
+      initial={{ opacity: reduce ? 1 : 0, scale: reduce ? 1 : 0.5 }}
+      whileInView={{ opacity: 1, scale: 1 }}
+      viewport={{ once: true, amount: 0.3 }}
+      transition={{ duration: 0.7, ease: "easeOut" }}
       className={`group relative overflow-hidden rounded-xl bg-black ${className}`}
     >
       <video
@@ -303,6 +309,6 @@ export default function LoopVideo({
           style={{ transform: "scaleX(0)" }}
         />
       </div>
-    </div>
+    </motion.div>
   );
 }

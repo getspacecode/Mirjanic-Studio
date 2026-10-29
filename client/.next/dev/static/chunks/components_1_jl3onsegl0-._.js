@@ -19,11 +19,11 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$usables$2f$Typ
 ;
 function AboutPage() {
     const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_supports$2d$color$40$7$2e$2$2e$0_$5f40$types$2b$node$40$20$2e$19$2e$43_babel$2d$plugin$2d$_69bc8fdf338b5934c4db9499814edd12$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(23);
-    if ($[0] !== "6e85375cd87e4ad21243d43095621d10c6d0a632b30cca3db3136ba53a9a9911") {
+    if ($[0] !== "fc418f42a9b001c5851241aa2f8f637ef0c718fa3ea70830372a8dc2545001be") {
         for(let $i = 0; $i < 23; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "6e85375cd87e4ad21243d43095621d10c6d0a632b30cca3db3136ba53a9a9911";
+        $[0] = "fc418f42a9b001c5851241aa2f8f637ef0c718fa3ea70830372a8dc2545001be";
     }
     let t0;
     let t1;
@@ -423,9 +423,9 @@ function AboutPage() {
                                     className: "text-2xl",
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_supports$2d$color$40$7$2e$2$2e$0_$5f40$types$2b$node$40$20$2e$19$2e$43_babel$2d$plugin$2d$_69bc8fdf338b5934c4db9499814edd12$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$usables$2f$TypingText$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                         words: [
-                                            "Video editor",
-                                            "Thumbnails design",
-                                            "After Effect"
+                                            "Video editing",
+                                            "Thumbnail design",
+                                            "Motion design"
                                         ],
                                         loop: true,
                                         once: false,
@@ -852,6 +852,9 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$ne
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_supports$2d$color$40$7$2e$2$2e$0_$5f40$types$2b$node$40$20$2e$19$2e$43_babel$2d$plugin$2d$_69bc8fdf338b5934c4db9499814edd12$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/.pnpm/next@16.4.3_@babel+core@7.29.7_supports-color@7.2.0__@types+node@20.19.43_babel-plugin-_69bc8fdf338b5934c4db9499814edd12/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$usables$2f$LoopVideo$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/components/usables/LoopVideo.tsx [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$usables$2f$TypingText$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/components/usables/TypingText.tsx [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$motion$40$14$2e$7$2e$1_react$2d$dom$40$19$2e$3$2e$0_react$40$19$2e$3$2e$0_$5f$react$40$19$2e$3$2e$0$2f$node_modules$2f$motion$2f$dist$2f$es$2f$react$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__ = __turbopack_context__.i("[project]/node_modules/.pnpm/motion@14.7.1_react-dom@19.3.0_react@19.3.0__react@19.3.0/node_modules/motion/dist/es/react.mjs [app-client] (ecmascript) <locals>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$reicon$2d$react$40$1$2e$2$2e$6_react$40$19$2e$3$2e$0$2f$node_modules$2f$reicon$2d$react$2f$icons$2f$Heart$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/.pnpm/reicon-react@1.2.6_react@19.3.0/node_modules/reicon-react/icons/Heart.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_supports$2d$color$40$7$2e$2$2e$0_$5f40$types$2b$node$40$20$2e$19$2e$43_babel$2d$plugin$2d$_69bc8fdf338b5934c4db9499814edd12$2f$node_modules$2f$next$2f$dist$2f$client$2f$image$2d$component$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__Image__as__default$3e$__ = __turbopack_context__.i("[project]/node_modules/.pnpm/next@16.4.3_@babel+core@7.29.7_supports-color@7.2.0__@types+node@20.19.43_babel-plugin-_69bc8fdf338b5934c4db9499814edd12/node_modules/next/dist/client/image-component.js [app-client] (ecmascript) <export Image as default>");
 ;
 var _s = __turbopack_context__.k.signature();
 "use client";
@@ -859,14 +862,18 @@ var _s = __turbopack_context__.k.signature();
 ;
 ;
 ;
+;
+;
+;
+const GAP = 16;
 function WorkPage() {
     _s();
-    const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_supports$2d$color$40$7$2e$2$2e$0_$5f40$types$2b$node$40$20$2e$19$2e$43_babel$2d$plugin$2d$_69bc8fdf338b5934c4db9499814edd12$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(6);
-    if ($[0] !== "faa7d9149498f9a947899c1cdf8415832d47cadcd89a292da110fb619d06e04a") {
-        for(let $i = 0; $i < 6; $i += 1){
+    const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_supports$2d$color$40$7$2e$2$2e$0_$5f40$types$2b$node$40$20$2e$19$2e$43_babel$2d$plugin$2d$_69bc8fdf338b5934c4db9499814edd12$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(21);
+    if ($[0] !== "452fa2d6278d7046b756f491a033cd212aa8c376bfbfc81688d398c55933b208") {
+        for(let $i = 0; $i < 21; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "faa7d9149498f9a947899c1cdf8415832d47cadcd89a292da110fb619d06e04a";
+        $[0] = "452fa2d6278d7046b756f491a033cd212aa8c376bfbfc81688d398c55933b208";
     }
     let t0;
     if ($[1] === Symbol.for("react.memo_cache_sentinel")) {
@@ -890,6 +897,9 @@ function WorkPage() {
     }
     const [active, setActive] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_supports$2d$color$40$7$2e$2$2e$0_$5f40$types$2b$node$40$20$2e$19$2e$43_babel$2d$plugin$2d$_69bc8fdf338b5934c4db9499814edd12$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(t1);
     let t2;
+    let t3;
+    let t4;
+    let t5;
     if ($[3] !== active) {
         const sections = [
             {
@@ -915,24 +925,20 @@ function WorkPage() {
                 ],
                 slide: "w-[70%] lg:w-auto aspect-[9/16]",
                 pad: "px-[15%]",
-                grid: "lg:grid-cols-4",
-                stagger: true
+                grid: "lg:grid-cols-4"
             },
             {
                 title: "Long-form video",
                 description: "YouTube-style edits with pacing, story and polish.",
                 right: true,
+                carousel: true,
                 videos: [
                     "https://imgur.com/eMUlDLQ",
                     "https://imgur.com/f0pbzNB"
                 ],
-                slide: "w-[88%] lg:w-auto aspect-video lg:aspect-auto lg:h-[420px]",
-                pad: "px-[6%]",
-                grid: "lg:grid-cols-5",
-                spans: [
-                    "lg:col-span-3",
-                    "lg:col-span-2"
-                ]
+                slide: "w-full aspect-video",
+                pad: "px-0",
+                grid: ""
             },
             {
                 title: "Ads & commercials",
@@ -943,213 +949,520 @@ function WorkPage() {
                     "https://imgur.com/dfoV9Cr",
                     "https://imgur.com/tXhd11Y"
                 ],
-                slide: "w-[88%] lg:w-auto aspect-video",
-                pad: "px-[6%]",
-                grid: "lg:grid-cols-2"
+                slide: "w-[70%] lg:w-auto aspect-[9/16]",
+                pad: "px-[15%]",
+                grid: "lg:grid-cols-4 lg:[&>*:first-child]:col-start-2"
             }
         ];
-        let t3;
-        if ($[5] === Symbol.for("react.memo_cache_sentinel")) {
-            t3 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_supports$2d$color$40$7$2e$2$2e$0_$5f40$types$2b$node$40$20$2e$19$2e$43_babel$2d$plugin$2d$_69bc8fdf338b5934c4db9499814edd12$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+        const goTo = {
+            "WorkPage[goTo]": (si, i)=>{
+                const el = trackRefs.current[si];
+                const slide = el?.children[0];
+                if (!el || !slide) {
+                    return;
+                }
+                el.scrollTo({
+                    left: i * (slide.offsetWidth + GAP),
+                    behavior: "smooth"
+                });
+            }
+        }["WorkPage[goTo]"];
+        t2 = "border border-b-white border-transparent w-full flex flex-1 py-20 flex-col justify-center items-center gap-24";
+        t3 = "Work";
+        let t6;
+        if ($[8] === Symbol.for("react.memo_cache_sentinel")) {
+            t6 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_supports$2d$color$40$7$2e$2$2e$0_$5f40$types$2b$node$40$20$2e$19$2e$43_babel$2d$plugin$2d$_69bc8fdf338b5934c4db9499814edd12$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$motion$40$14$2e$7$2e$1_react$2d$dom$40$19$2e$3$2e$0_react$40$19$2e$3$2e$0_$5f$react$40$19$2e$3$2e$0$2f$node_modules$2f$motion$2f$dist$2f$es$2f$react$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__["motion"].h2, {
+                whileInView: {
+                    x: [
+                        -15,
+                        0
+                    ],
+                    opacity: [
+                        0,
+                        1
+                    ],
+                    transition: {
+                        duration: 1,
+                        ease: "easeInOut"
+                    }
+                },
+                className: "text-4xl font-semibold",
+                children: "My services"
+            }, void 0, false, {
+                fileName: "[project]/components/pages/Work.tsx",
+                lineNumber: 96,
+                columnNumber: 12
+            }, this);
+            $[8] = t6;
+        } else {
+            t6 = $[8];
+        }
+        if ($[9] === Symbol.for("react.memo_cache_sentinel")) {
+            t4 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_supports$2d$color$40$7$2e$2$2e$0_$5f40$types$2b$node$40$20$2e$19$2e$43_babel$2d$plugin$2d$_69bc8fdf338b5934c4db9499814edd12$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "flex flex-col items-center gap-3 px-4 text-center",
                 children: [
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_supports$2d$color$40$7$2e$2$2e$0_$5f40$types$2b$node$40$20$2e$19$2e$43_babel$2d$plugin$2d$_69bc8fdf338b5934c4db9499814edd12$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                        className: "text-4xl font-semibold",
-                        children: "My services"
-                    }, void 0, false, {
-                        fileName: "[project]/components/pages/Work.tsx",
-                        lineNumber: 71,
-                        columnNumber: 79
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_supports$2d$color$40$7$2e$2$2e$0_$5f40$types$2b$node$40$20$2e$19$2e$43_babel$2d$plugin$2d$_69bc8fdf338b5934c4db9499814edd12$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                    t6,
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_supports$2d$color$40$7$2e$2$2e$0_$5f40$types$2b$node$40$20$2e$19$2e$43_babel$2d$plugin$2d$_69bc8fdf338b5934c4db9499814edd12$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$motion$40$14$2e$7$2e$1_react$2d$dom$40$19$2e$3$2e$0_react$40$19$2e$3$2e$0_$5f$react$40$19$2e$3$2e$0$2f$node_modules$2f$motion$2f$dist$2f$es$2f$react$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__["motion"].p, {
+                        whileInView: {
+                            x: [
+                                -15,
+                                0
+                            ],
+                            opacity: [
+                                0,
+                                1
+                            ],
+                            transition: {
+                                duration: 1,
+                                delay: 0.1,
+                                ease: "easeInOut"
+                            }
+                        },
                         className: "max-w-lg text-white/60",
                         children: "Videos edited to hold attention, from quick hooks to full stories."
                     }, void 0, false, {
                         fileName: "[project]/components/pages/Work.tsx",
-                        lineNumber: 71,
-                        columnNumber: 134
+                        lineNumber: 109,
+                        columnNumber: 83
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/pages/Work.tsx",
-                lineNumber: 71,
+                lineNumber: 109,
                 columnNumber: 12
             }, this);
-            $[5] = t3;
+            $[9] = t4;
         } else {
-            t3 = $[5];
+            t4 = $[9];
         }
-        t2 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_supports$2d$color$40$7$2e$2$2e$0_$5f40$types$2b$node$40$20$2e$19$2e$43_babel$2d$plugin$2d$_69bc8fdf338b5934c4db9499814edd12$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "border border-b-white border-transparent w-full flex flex-1 py-20 flex-col justify-center items-center gap-24",
-            id: "Work",
-            children: [
-                t3,
-                sections.map({
-                    "WorkPage[sections.map()]": (s, si)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_supports$2d$color$40$7$2e$2$2e$0_$5f40$types$2b$node$40$20$2e$19$2e$43_babel$2d$plugin$2d$_69bc8fdf338b5934c4db9499814edd12$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-                            className: "relative isolate flex w-full flex-col gap-8 lg:w-[85%] lg:max-w-7xl",
+        t5 = sections.map({
+            "WorkPage[sections.map()]": (s, si_0)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_supports$2d$color$40$7$2e$2$2e$0_$5f40$types$2b$node$40$20$2e$19$2e$43_babel$2d$plugin$2d$_69bc8fdf338b5934c4db9499814edd12$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
+                    className: "relative isolate flex w-full flex-col gap-8 lg:w-[85%] lg:max-w-7xl",
+                    children: [
+                        s.premium && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_supports$2d$color$40$7$2e$2$2e$0_$5f40$types$2b$node$40$20$2e$19$2e$43_babel$2d$plugin$2d$_69bc8fdf338b5934c4db9499814edd12$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "pointer-events-none absolute inset-x-[10%] top-1/3 -z-10 h-2/3 rounded-full bg-accent-strong/20 blur-3xl"
+                        }, void 0, false, {
+                            fileName: "[project]/components/pages/Work.tsx",
+                            lineNumber: 123,
+                            columnNumber: 165
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_supports$2d$color$40$7$2e$2$2e$0_$5f40$types$2b$node$40$20$2e$19$2e$43_babel$2d$plugin$2d$_69bc8fdf338b5934c4db9499814edd12$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: `flex flex-col items-center gap-2 px-4 text-center lg:px-0 ${s.right ? "lg:items-end lg:text-right" : "lg:items-start lg:text-left"}`,
                             children: [
-                                s.premium && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_supports$2d$color$40$7$2e$2$2e$0_$5f40$types$2b$node$40$20$2e$19$2e$43_babel$2d$plugin$2d$_69bc8fdf338b5934c4db9499814edd12$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "pointer-events-none absolute inset-x-[10%] top-1/3 -z-10 h-2/3 rounded-full bg-accent-strong/20 blur-3xl"
-                                }, void 0, false, {
-                                    fileName: "[project]/components/pages/Work.tsx",
-                                    lineNumber: 77,
-                                    columnNumber: 165
-                                }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_supports$2d$color$40$7$2e$2$2e$0_$5f40$types$2b$node$40$20$2e$19$2e$43_babel$2d$plugin$2d$_69bc8fdf338b5934c4db9499814edd12$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: `flex flex-col items-center gap-2 px-4 text-center lg:px-0 ${s.right ? "lg:items-end lg:text-right" : "lg:items-start lg:text-left"}`,
+                                    className: `flex items-center gap-4 ${s.right ? "lg:flex-row-reverse" : ""}`,
                                     children: [
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_supports$2d$color$40$7$2e$2$2e$0_$5f40$types$2b$node$40$20$2e$19$2e$43_babel$2d$plugin$2d$_69bc8fdf338b5934c4db9499814edd12$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: `flex items-center gap-4 ${s.right ? "lg:flex-row-reverse" : ""}`,
-                                            children: [
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_supports$2d$color$40$7$2e$2$2e$0_$5f40$types$2b$node$40$20$2e$19$2e$43_babel$2d$plugin$2d$_69bc8fdf338b5934c4db9499814edd12$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                    className: "text-accent-strong text-2xl font-bold",
-                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_supports$2d$color$40$7$2e$2$2e$0_$5f40$types$2b$node$40$20$2e$19$2e$43_babel$2d$plugin$2d$_69bc8fdf338b5934c4db9499814edd12$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$usables$2f$TypingText$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                                        words: [
-                                                            s.title
-                                                        ],
-                                                        loop: false
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/components/pages/Work.tsx",
-                                                        lineNumber: 77,
-                                                        columnNumber: 580
-                                                    }, this)
-                                                }, void 0, false, {
-                                                    fileName: "[project]/components/pages/Work.tsx",
-                                                    lineNumber: 77,
-                                                    columnNumber: 524
-                                                }, this),
-                                                s.premium && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_supports$2d$color$40$7$2e$2$2e$0_$5f40$types$2b$node$40$20$2e$19$2e$43_babel$2d$plugin$2d$_69bc8fdf338b5934c4db9499814edd12$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                    className: "rounded-full border border-accent-strong/50 bg-accent-strong/10 px-3 py-1 text-xs font-semibold text-accent-strong",
-                                                    children: "Premium"
-                                                }, void 0, false, {
-                                                    fileName: "[project]/components/pages/Work.tsx",
-                                                    lineNumber: 77,
-                                                    columnNumber: 646
-                                                }, this)
-                                            ]
-                                        }, void 0, true, {
-                                            fileName: "[project]/components/pages/Work.tsx",
-                                            lineNumber: 77,
-                                            columnNumber: 441
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_supports$2d$color$40$7$2e$2$2e$0_$5f40$types$2b$node$40$20$2e$19$2e$43_babel$2d$plugin$2d$_69bc8fdf338b5934c4db9499814edd12$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                            className: "max-w-md text-sm text-white/60",
-                                            children: s.description
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_supports$2d$color$40$7$2e$2$2e$0_$5f40$types$2b$node$40$20$2e$19$2e$43_babel$2d$plugin$2d$_69bc8fdf338b5934c4db9499814edd12$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                            className: "text-accent-strong text-2xl font-bold",
+                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_supports$2d$color$40$7$2e$2$2e$0_$5f40$types$2b$node$40$20$2e$19$2e$43_babel$2d$plugin$2d$_69bc8fdf338b5934c4db9499814edd12$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$usables$2f$TypingText$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                                words: [
+                                                    s.title
+                                                ],
+                                                loop: false
+                                            }, void 0, false, {
+                                                fileName: "[project]/components/pages/Work.tsx",
+                                                lineNumber: 123,
+                                                columnNumber: 580
+                                            }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/components/pages/Work.tsx",
-                                            lineNumber: 77,
-                                            columnNumber: 800
+                                            lineNumber: 123,
+                                            columnNumber: 524
+                                        }, this),
+                                        s.premium && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_supports$2d$color$40$7$2e$2$2e$0_$5f40$types$2b$node$40$20$2e$19$2e$43_babel$2d$plugin$2d$_69bc8fdf338b5934c4db9499814edd12$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$motion$40$14$2e$7$2e$1_react$2d$dom$40$19$2e$3$2e$0_react$40$19$2e$3$2e$0_$5f$react$40$19$2e$3$2e$0$2f$node_modules$2f$motion$2f$dist$2f$es$2f$react$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__["motion"].span, {
+                                            whileInView: {
+                                                scale: [
+                                                    0.5,
+                                                    1
+                                                ],
+                                                opacity: [
+                                                    0,
+                                                    1
+                                                ],
+                                                transition: {
+                                                    duration: 1,
+                                                    delay: 0.2,
+                                                    ease: "easeInOut"
+                                                }
+                                            },
+                                            className: "rounded-full border border-accent-strong/50 bg-accent-strong/10 px-3 py-1 text-xs font-semibold text-accent-strong",
+                                            children: "Premium"
+                                        }, void 0, false, {
+                                            fileName: "[project]/components/pages/Work.tsx",
+                                            lineNumber: 123,
+                                            columnNumber: 646
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/pages/Work.tsx",
-                                    lineNumber: 77,
-                                    columnNumber: 290
+                                    lineNumber: 123,
+                                    columnNumber: 441
                                 }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_supports$2d$color$40$7$2e$2$2e$0_$5f40$types$2b$node$40$20$2e$19$2e$43_babel$2d$plugin$2d$_69bc8fdf338b5934c4db9499814edd12$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$motion$40$14$2e$7$2e$1_react$2d$dom$40$19$2e$3$2e$0_react$40$19$2e$3$2e$0_$5f$react$40$19$2e$3$2e$0$2f$node_modules$2f$motion$2f$dist$2f$es$2f$react$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__["motion"].p, {
+                                    whileInView: {
+                                        x: [
+                                            -15,
+                                            0
+                                        ],
+                                        opacity: [
+                                            0,
+                                            1
+                                        ],
+                                        transition: {
+                                            duration: 1,
+                                            delay: 0.2,
+                                            ease: "easeInOut"
+                                        }
+                                    },
+                                    className: "max-w-md text-sm text-white/60",
+                                    children: s.description
+                                }, void 0, false, {
+                                    fileName: "[project]/components/pages/Work.tsx",
+                                    lineNumber: 131,
+                                    columnNumber: 171
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/components/pages/Work.tsx",
+                            lineNumber: 123,
+                            columnNumber: 290
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_supports$2d$color$40$7$2e$2$2e$0_$5f40$types$2b$node$40$20$2e$19$2e$43_babel$2d$plugin$2d$_69bc8fdf338b5934c4db9499814edd12$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "relative",
+                            children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_supports$2d$color$40$7$2e$2$2e$0_$5f40$types$2b$node$40$20$2e$19$2e$43_babel$2d$plugin$2d$_69bc8fdf338b5934c4db9499814edd12$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     ref: {
-                                        "WorkPage[sections.map() > <div>.ref]": (el)=>{
-                                            trackRefs.current[si] = el;
+                                        "WorkPage[sections.map() > <div>.ref]": (el_0)=>{
+                                            trackRefs.current[si_0] = el_0;
                                         }
                                     }["WorkPage[sections.map() > <div>.ref]"],
                                     onScroll: {
                                         "WorkPage[sections.map() > <div>.onScroll]": (e)=>{
-                                            const el_0 = e.currentTarget;
-                                            const slide = el_0.children[0];
-                                            if (!slide) {
+                                            const el_1 = e.currentTarget;
+                                            const slide_0 = el_1.children[0];
+                                            if (!slide_0) {
                                                 return;
                                             }
-                                            const i = Math.round(el_0.scrollLeft / (slide.offsetWidth + 16));
+                                            const i_0 = Math.round(el_1.scrollLeft / (slide_0.offsetWidth + GAP));
                                             setActive({
                                                 "WorkPage[sections.map() > <div>.onScroll > setActive()]": (prev)=>{
-                                                    if (prev[si] === i) {
+                                                    if (prev[si_0] === i_0) {
                                                         return prev;
                                                     }
                                                     const next = [
                                                         ...prev
                                                     ];
-                                                    next[si] = i;
+                                                    next[si_0] = i_0;
                                                     return next;
                                                 }
                                             }["WorkPage[sections.map() > <div>.onScroll > setActive()]"]);
                                         }
                                     }["WorkPage[sections.map() > <div>.onScroll]"],
-                                    className: `flex gap-4 overflow-x-auto snap-x snap-mandatory pb-2 ${s.pad} [scrollbar-width:none] [&::-webkit-scrollbar]:hidden lg:grid lg:gap-6 lg:overflow-visible lg:px-0 lg:pb-0 ${s.grid}`,
+                                    className: `flex gap-4 overflow-x-auto snap-x snap-mandatory pb-2 ${s.pad} [scrollbar-width:none] [&::-webkit-scrollbar]:hidden ${s.carousel ? "" : `lg:grid lg:gap-6 lg:overflow-visible lg:px-0 lg:pb-0 ${s.grid}`}`,
                                     children: s.videos.map({
-                                        "WorkPage[sections.map() > s.videos.map()]": (src, i_0)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_supports$2d$color$40$7$2e$2$2e$0_$5f40$types$2b$node$40$20$2e$19$2e$43_babel$2d$plugin$2d$_69bc8fdf338b5934c4db9499814edd12$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                className: `group w-full shrink-0 snap-center overflow-hidden border transition duration-300 hover:border-accent-strong/60 lg:hover:-translate-y-1 ${s.premium ? "rounded-3xl border-accent-strong/40 bg-gradient-to-b from-white/10 to-white/[0.02] p-1.5 shadow-[0_30px_80px_-30px] shadow-accent-strong/60 ring-1 ring-white/10" : "rounded-2xl border-white/10 bg-white/[0.03]"} ${s.slide} ${s.spans ? s.spans[i_0] : ""} ${s.stagger && i_0 % 2 === 1 ? "lg:mt-10" : ""}`,
+                                        "WorkPage[sections.map() > s.videos.map()]": (src)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_supports$2d$color$40$7$2e$2$2e$0_$5f40$types$2b$node$40$20$2e$19$2e$43_babel$2d$plugin$2d$_69bc8fdf338b5934c4db9499814edd12$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                className: `group w-full shrink-0 snap-center overflow-hidden border transition duration-300 hover:border-accent-strong/60 ${s.carousel ? "" : "lg:hover:-translate-y-1"} ${s.premium ? "rounded-3xl border-accent-strong/40 bg-gradient-to-b from-white/10 to-white/[0.02] p-1.5 shadow-[0_30px_80px_-30px] shadow-accent-strong/60 ring-1 ring-white/10" : "rounded-2xl border-white/10 bg-white/[0.03]"} ${s.slide}`,
                                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_supports$2d$color$40$7$2e$2$2e$0_$5f40$types$2b$node$40$20$2e$19$2e$43_babel$2d$plugin$2d$_69bc8fdf338b5934c4db9499814edd12$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$usables$2f$LoopVideo$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                                     src: src,
                                                     loop: false,
                                                     className: `h-full w-full ${s.premium ? "overflow-hidden rounded-[1.1rem]" : ""}`
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/pages/Work.tsx",
-                                                    lineNumber: 101,
-                                                    columnNumber: 554
+                                                    lineNumber: 163,
+                                                    columnNumber: 491
                                                 }, this)
                                             }, src, false, {
                                                 fileName: "[project]/components/pages/Work.tsx",
-                                                lineNumber: 101,
-                                                columnNumber: 74
+                                                lineNumber: 163,
+                                                columnNumber: 67
                                             }, this)
                                     }["WorkPage[sections.map() > s.videos.map()]"])
                                 }, void 0, false, {
                                     fileName: "[project]/components/pages/Work.tsx",
-                                    lineNumber: 77,
-                                    columnNumber: 871
+                                    lineNumber: 139,
+                                    columnNumber: 115
                                 }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_supports$2d$color$40$7$2e$2$2e$0_$5f40$types$2b$node$40$20$2e$19$2e$43_babel$2d$plugin$2d$_69bc8fdf338b5934c4db9499814edd12$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: `justify-center gap-2 lg:hidden ${s.videos.length > 1 ? "flex" : "hidden"}`,
-                                    children: s.videos.map({
-                                        "WorkPage[sections.map() > s.videos.map()]": (_, i_1)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_supports$2d$color$40$7$2e$2$2e$0_$5f40$types$2b$node$40$20$2e$19$2e$43_babel$2d$plugin$2d$_69bc8fdf338b5934c4db9499814edd12$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                                "aria-label": `Go to video ${i_1 + 1}`,
-                                                onClick: {
-                                                    "WorkPage[sections.map() > s.videos.map() > <button>.onClick]": ()=>{
-                                                        const el_1 = trackRefs.current[si];
-                                                        const slide_0 = el_1?.children[0];
-                                                        if (!el_1 || !slide_0) {
-                                                            return;
-                                                        }
-                                                        el_1.scrollTo({
-                                                            left: i_1 * (slide_0.offsetWidth + 16),
-                                                            behavior: "smooth"
-                                                        });
-                                                    }
-                                                }["WorkPage[sections.map() > s.videos.map() > <button>.onClick]"],
-                                                className: `h-2 rounded-full transition-all duration-300 ${active[si] === i_1 ? "w-6 bg-accent-strong" : "w-2 bg-white/30"}`
-                                            }, i_1, false, {
-                                                fileName: "[project]/components/pages/Work.tsx",
-                                                lineNumber: 103,
-                                                columnNumber: 72
-                                            }, this)
-                                    }["WorkPage[sections.map() > s.videos.map()]"])
-                                }, void 0, false, {
+                                s.carousel && s.videos.length > 1 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_supports$2d$color$40$7$2e$2$2e$0_$5f40$types$2b$node$40$20$2e$19$2e$43_babel$2d$plugin$2d$_69bc8fdf338b5934c4db9499814edd12$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_supports$2d$color$40$7$2e$2$2e$0_$5f40$types$2b$node$40$20$2e$19$2e$43_babel$2d$plugin$2d$_69bc8fdf338b5934c4db9499814edd12$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Fragment"], {
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_supports$2d$color$40$7$2e$2$2e$0_$5f40$types$2b$node$40$20$2e$19$2e$43_babel$2d$plugin$2d$_69bc8fdf338b5934c4db9499814edd12$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                                            "aria-label": "Previous video",
+                                            disabled: active[si_0] === 0,
+                                            onClick: {
+                                                "WorkPage[sections.map() > <button>.onClick]": ()=>goTo(si_0, active[si_0] - 1)
+                                            }["WorkPage[sections.map() > <button>.onClick]"],
+                                            className: "absolute left-3 top-1/2 z-10 hidden h-10 w-10 -translate-y-1/2 items-center justify-center rounded-full border border-white/20 bg-black/60 text-xl text-white transition hover:bg-accent-strong/80 disabled:pointer-events-none disabled:opacity-30 lg:flex",
+                                            children: "‹"
+                                        }, void 0, false, {
+                                            fileName: "[project]/components/pages/Work.tsx",
+                                            lineNumber: 164,
+                                            columnNumber: 107
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_supports$2d$color$40$7$2e$2$2e$0_$5f40$types$2b$node$40$20$2e$19$2e$43_babel$2d$plugin$2d$_69bc8fdf338b5934c4db9499814edd12$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                                            "aria-label": "Next video",
+                                            disabled: active[si_0] === s.videos.length - 1,
+                                            onClick: {
+                                                "WorkPage[sections.map() > <button>.onClick]": ()=>goTo(si_0, active[si_0] + 1)
+                                            }["WorkPage[sections.map() > <button>.onClick]"],
+                                            className: "absolute right-3 top-1/2 z-10 hidden h-10 w-10 -translate-y-1/2 items-center justify-center rounded-full border border-white/20 bg-black/60 text-xl text-white transition hover:bg-accent-strong/80 disabled:pointer-events-none disabled:opacity-30 lg:flex",
+                                            children: "›"
+                                        }, void 0, false, {
+                                            fileName: "[project]/components/pages/Work.tsx",
+                                            lineNumber: 166,
+                                            columnNumber: 337
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
                                     fileName: "[project]/components/pages/Work.tsx",
-                                    lineNumber: 102,
-                                    columnNumber: 67
+                                    lineNumber: 164,
+                                    columnNumber: 105
                                 }, this)
                             ]
-                        }, s.title, true, {
+                        }, void 0, true, {
                             fileName: "[project]/components/pages/Work.tsx",
-                            lineNumber: 77,
-                            columnNumber: 48
+                            lineNumber: 139,
+                            columnNumber: 89
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_supports$2d$color$40$7$2e$2$2e$0_$5f40$types$2b$node$40$20$2e$19$2e$43_babel$2d$plugin$2d$_69bc8fdf338b5934c4db9499814edd12$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: `justify-center gap-2 ${s.carousel ? "" : "lg:hidden"} ${s.videos.length > 1 ? "flex" : "hidden"}`,
+                            children: s.videos.map({
+                                "WorkPage[sections.map() > s.videos.map()]": (_, i_1)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_supports$2d$color$40$7$2e$2$2e$0_$5f40$types$2b$node$40$20$2e$19$2e$43_babel$2d$plugin$2d$_69bc8fdf338b5934c4db9499814edd12$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                                        "aria-label": `Go to video ${i_1 + 1}`,
+                                        onClick: {
+                                            "WorkPage[sections.map() > s.videos.map() > <button>.onClick]": ()=>goTo(si_0, i_1)
+                                        }["WorkPage[sections.map() > s.videos.map() > <button>.onClick]"],
+                                        className: `h-2 rounded-full transition-all duration-300 ${active[si_0] === i_1 ? "w-6 bg-accent-strong" : "w-2 bg-white/30"}`
+                                    }, i_1, false, {
+                                        fileName: "[project]/components/pages/Work.tsx",
+                                        lineNumber: 169,
+                                        columnNumber: 70
+                                    }, this)
+                            }["WorkPage[sections.map() > s.videos.map()]"])
+                        }, void 0, false, {
+                            fileName: "[project]/components/pages/Work.tsx",
+                            lineNumber: 168,
+                            columnNumber: 348
                         }, this)
-                }["WorkPage[sections.map()]"])
+                    ]
+                }, s.title, true, {
+                    fileName: "[project]/components/pages/Work.tsx",
+                    lineNumber: 123,
+                    columnNumber: 48
+                }, this)
+        }["WorkPage[sections.map()]"]);
+        $[3] = active;
+        $[4] = t2;
+        $[5] = t3;
+        $[6] = t4;
+        $[7] = t5;
+    } else {
+        t2 = $[4];
+        t3 = $[5];
+        t4 = $[6];
+        t5 = $[7];
+    }
+    let t6;
+    if ($[10] === Symbol.for("react.memo_cache_sentinel")) {
+        t6 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_supports$2d$color$40$7$2e$2$2e$0_$5f40$types$2b$node$40$20$2e$19$2e$43_babel$2d$plugin$2d$_69bc8fdf338b5934c4db9499814edd12$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "pointer-events-none absolute left-1/2 top-1/3 -z-10 h-2/3 w-[70%] -translate-x-1/2 rounded-full bg-accent-strong/10 blur-3xl"
+        }, void 0, false, {
+            fileName: "[project]/components/pages/Work.tsx",
+            lineNumber: 187,
+            columnNumber: 10
+        }, this);
+        $[10] = t6;
+    } else {
+        t6 = $[10];
+    }
+    let t7;
+    if ($[11] === Symbol.for("react.memo_cache_sentinel")) {
+        t7 = {
+            once: true,
+            amount: 0.5
+        };
+        $[11] = t7;
+    } else {
+        t7 = $[11];
+    }
+    let t8;
+    if ($[12] === Symbol.for("react.memo_cache_sentinel")) {
+        t8 = {
+            duration: 1.4,
+            repeat: Infinity,
+            repeatDelay: 1.2,
+            ease: "easeInOut"
+        };
+        $[12] = t8;
+    } else {
+        t8 = $[12];
+    }
+    let t9;
+    if ($[13] === Symbol.for("react.memo_cache_sentinel")) {
+        t9 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_supports$2d$color$40$7$2e$2$2e$0_$5f40$types$2b$node$40$20$2e$19$2e$43_babel$2d$plugin$2d$_69bc8fdf338b5934c4db9499814edd12$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$motion$40$14$2e$7$2e$1_react$2d$dom$40$19$2e$3$2e$0_react$40$19$2e$3$2e$0_$5f$react$40$19$2e$3$2e$0$2f$node_modules$2f$motion$2f$dist$2f$es$2f$react$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__["motion"].div, {
+            initial: "hidden",
+            whileInView: "show",
+            viewport: t7,
+            custom: 0,
+            className: "flex items-center gap-4",
+            children: [
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_supports$2d$color$40$7$2e$2$2e$0_$5f40$types$2b$node$40$20$2e$19$2e$43_babel$2d$plugin$2d$_69bc8fdf338b5934c4db9499814edd12$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$motion$40$14$2e$7$2e$1_react$2d$dom$40$19$2e$3$2e$0_react$40$19$2e$3$2e$0_$5f$react$40$19$2e$3$2e$0$2f$node_modules$2f$motion$2f$dist$2f$es$2f$react$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__["motion"].span, {
+                    transition: t8,
+                    className: "grid h-12 w-12 place-items-center rounded-full border border-red-500/30 bg-red-500/10",
+                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_supports$2d$color$40$7$2e$2$2e$0_$5f40$types$2b$node$40$20$2e$19$2e$43_babel$2d$plugin$2d$_69bc8fdf338b5934c4db9499814edd12$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$reicon$2d$react$40$1$2e$2$2e$6_react$40$19$2e$3$2e$0$2f$node_modules$2f$reicon$2d$react$2f$icons$2f$Heart$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Heart"], {
+                        size: 24,
+                        className: "fill-red-500 text-red-500"
+                    }, void 0, false, {
+                        fileName: "[project]/components/pages/Work.tsx",
+                        lineNumber: 216,
+                        columnNumber: 246
+                    }, this)
+                }, void 0, false, {
+                    fileName: "[project]/components/pages/Work.tsx",
+                    lineNumber: 216,
+                    columnNumber: 119
+                }, this),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_supports$2d$color$40$7$2e$2$2e$0_$5f40$types$2b$node$40$20$2e$19$2e$43_babel$2d$plugin$2d$_69bc8fdf338b5934c4db9499814edd12$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                    className: "text-2xl font-semibold text-accent-strong sm:text-3xl",
+                    children: "My loyal customers"
+                }, void 0, false, {
+                    fileName: "[project]/components/pages/Work.tsx",
+                    lineNumber: 216,
+                    columnNumber: 317
+                }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/components/pages/Work.tsx",
-            lineNumber: 76,
+            lineNumber: 216,
             columnNumber: 10
         }, this);
-        $[3] = active;
-        $[4] = t2;
+        $[13] = t9;
     } else {
-        t2 = $[4];
+        t9 = $[13];
     }
-    return t2;
+    let t10;
+    if ($[14] === Symbol.for("react.memo_cache_sentinel")) {
+        t10 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_supports$2d$color$40$7$2e$2$2e$0_$5f40$types$2b$node$40$20$2e$19$2e$43_babel$2d$plugin$2d$_69bc8fdf338b5934c4db9499814edd12$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "flex flex-col items-center gap-3 text-center",
+            children: [
+                t9,
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_supports$2d$color$40$7$2e$2$2e$0_$5f40$types$2b$node$40$20$2e$19$2e$43_babel$2d$plugin$2d$_69bc8fdf338b5934c4db9499814edd12$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$motion$40$14$2e$7$2e$1_react$2d$dom$40$19$2e$3$2e$0_react$40$19$2e$3$2e$0_$5f$react$40$19$2e$3$2e$0$2f$node_modules$2f$motion$2f$dist$2f$es$2f$react$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__["motion"].p, {
+                    initial: "hidden",
+                    whileInView: "show",
+                    viewport: {
+                        once: true,
+                        amount: 0.5
+                    },
+                    custom: 0.15,
+                    className: "max-w-md text-sm text-white/60 sm:text-base",
+                    children: "Real messages from clients who keep coming back."
+                }, void 0, false, {
+                    fileName: "[project]/components/pages/Work.tsx",
+                    lineNumber: 223,
+                    columnNumber: 77
+                }, this)
+            ]
+        }, void 0, true, {
+            fileName: "[project]/components/pages/Work.tsx",
+            lineNumber: 223,
+            columnNumber: 11
+        }, this);
+        $[14] = t10;
+    } else {
+        t10 = $[14];
+    }
+    let t11;
+    if ($[15] === Symbol.for("react.memo_cache_sentinel")) {
+        t11 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_supports$2d$color$40$7$2e$2$2e$0_$5f40$types$2b$node$40$20$2e$19$2e$43_babel$2d$plugin$2d$_69bc8fdf338b5934c4db9499814edd12$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
+            className: "relative isolate flex w-full flex-col items-center px-4 py-20 lg:py-28",
+            children: [
+                t6,
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_supports$2d$color$40$7$2e$2$2e$0_$5f40$types$2b$node$40$20$2e$19$2e$43_babel$2d$plugin$2d$_69bc8fdf338b5934c4db9499814edd12$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    className: "flex w-full max-w-5xl flex-col gap-14",
+                    children: [
+                        t10,
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_supports$2d$color$40$7$2e$2$2e$0_$5f40$types$2b$node$40$20$2e$19$2e$43_babel$2d$plugin$2d$_69bc8fdf338b5934c4db9499814edd12$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "columns-1 gap-6 sm:columns-2 lg:gap-8",
+                            children: reviews.map(_WorkPageReviewsMap)
+                        }, void 0, false, {
+                            fileName: "[project]/components/pages/Work.tsx",
+                            lineNumber: 233,
+                            columnNumber: 167
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "[project]/components/pages/Work.tsx",
+                    lineNumber: 233,
+                    columnNumber: 107
+                }, this)
+            ]
+        }, void 0, true, {
+            fileName: "[project]/components/pages/Work.tsx",
+            lineNumber: 233,
+            columnNumber: 11
+        }, this);
+        $[15] = t11;
+    } else {
+        t11 = $[15];
+    }
+    let t12;
+    if ($[16] !== t2 || $[17] !== t3 || $[18] !== t4 || $[19] !== t5) {
+        t12 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_supports$2d$color$40$7$2e$2$2e$0_$5f40$types$2b$node$40$20$2e$19$2e$43_babel$2d$plugin$2d$_69bc8fdf338b5934c4db9499814edd12$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: t2,
+            id: t3,
+            children: [
+                t4,
+                t5,
+                t11
+            ]
+        }, void 0, true, {
+            fileName: "[project]/components/pages/Work.tsx",
+            lineNumber: 240,
+            columnNumber: 11
+        }, this);
+        $[16] = t2;
+        $[17] = t3;
+        $[18] = t4;
+        $[19] = t5;
+        $[20] = t12;
+    } else {
+        t12 = $[20];
+    }
+    return t12;
 }
 _s(WorkPage, "M1Zad/+ls83Is+Uko6P3MfRJ9ao=");
 _c = WorkPage;
+function _WorkPageReviewsMap(src_0, i_2) {
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_supports$2d$color$40$7$2e$2$2e$0_$5f40$types$2b$node$40$20$2e$19$2e$43_babel$2d$plugin$2d$_69bc8fdf338b5934c4db9499814edd12$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$motion$40$14$2e$7$2e$1_react$2d$dom$40$19$2e$3$2e$0_react$40$19$2e$3$2e$0_$5f$react$40$19$2e$3$2e$0$2f$node_modules$2f$motion$2f$dist$2f$es$2f$react$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__["motion"].div, {
+        initial: "hidden",
+        whileInView: "show",
+        viewport: {
+            once: true,
+            amount: 0.2
+        },
+        custom: i_2,
+        className: "mb-6 break-inside-avoid lg:mb-8",
+        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_supports$2d$color$40$7$2e$2$2e$0_$5f40$types$2b$node$40$20$2e$19$2e$43_babel$2d$plugin$2d$_69bc8fdf338b5934c4db9499814edd12$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "group overflow-hidden rounded-2xl border border-accent-soft/60 bg-white/[0.03] p-1.5 shadow-[0_20px_60px_-30px] shadow-accent-strong/40 ring-1 ring-white/10 transition duration-300 hover:-translate-y-1 hover:border-accent-strong/60 hover:shadow-accent-strong/60",
+            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_supports$2d$color$40$7$2e$2$2e$0_$5f40$types$2b$node$40$20$2e$19$2e$43_babel$2d$plugin$2d$_69bc8fdf338b5934c4db9499814edd12$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_supports$2d$color$40$7$2e$2$2e$0_$5f40$types$2b$node$40$20$2e$19$2e$43_babel$2d$plugin$2d$_69bc8fdf338b5934c4db9499814edd12$2f$node_modules$2f$next$2f$dist$2f$client$2f$image$2d$component$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__Image__as__default$3e$__["default"], {
+                src: src_0,
+                alt: `Customer review ${i_2 + 1}`,
+                sizes: "(min-width: 640px) 50vw, 100vw",
+                className: "h-auto w-full rounded-xl"
+            }, void 0, false, {
+                fileName: "[project]/components/pages/Work.tsx",
+                lineNumber: 255,
+                columnNumber: 342
+            }, this)
+        }, void 0, false, {
+            fileName: "[project]/components/pages/Work.tsx",
+            lineNumber: 255,
+            columnNumber: 63
+        }, this)
+    }, i_2, false, {
+        fileName: "[project]/components/pages/Work.tsx",
+        lineNumber: 252,
+        columnNumber: 10
+    }, this);
+}
 var _c;
 __turbopack_context__.k.register(_c, "WorkPage");
 if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
@@ -1445,9 +1758,12 @@ __turbopack_context__.s([
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_supports$2d$color$40$7$2e$2$2e$0_$5f40$types$2b$node$40$20$2e$19$2e$43_babel$2d$plugin$2d$_69bc8fdf338b5934c4db9499814edd12$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/.pnpm/next@16.4.3_@babel+core@7.29.7_supports-color@7.2.0__@types+node@20.19.43_babel-plugin-_69bc8fdf338b5934c4db9499814edd12/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_supports$2d$color$40$7$2e$2$2e$0_$5f40$types$2b$node$40$20$2e$19$2e$43_babel$2d$plugin$2d$_69bc8fdf338b5934c4db9499814edd12$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/.pnpm/next@16.4.3_@babel+core@7.29.7_supports-color@7.2.0__@types+node@20.19.43_babel-plugin-_69bc8fdf338b5934c4db9499814edd12/node_modules/next/dist/compiled/react/compiler-runtime.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_supports$2d$color$40$7$2e$2$2e$0_$5f40$types$2b$node$40$20$2e$19$2e$43_babel$2d$plugin$2d$_69bc8fdf338b5934c4db9499814edd12$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/.pnpm/next@16.4.3_@babel+core@7.29.7_supports-color@7.2.0__@types+node@20.19.43_babel-plugin-_69bc8fdf338b5934c4db9499814edd12/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$motion$40$14$2e$7$2e$1_react$2d$dom$40$19$2e$3$2e$0_react$40$19$2e$3$2e$0_$5f$react$40$19$2e$3$2e$0$2f$node_modules$2f$motion$2f$dist$2f$es$2f$react$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__ = __turbopack_context__.i("[project]/node_modules/.pnpm/motion@14.7.1_react-dom@19.3.0_react@19.3.0__react@19.3.0/node_modules/motion/dist/es/react.mjs [app-client] (ecmascript) <locals>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$framer$2d$motion$40$14$2e$7$2e$1_react$2d$dom$40$19$2e$3$2e$0_react$40$19$2e$3$2e$0_$5f$react$40$19$2e$3$2e$0$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$utils$2f$reduced$2d$motion$2f$use$2d$reduced$2d$motion$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/.pnpm/framer-motion@14.7.1_react-dom@19.3.0_react@19.3.0__react@19.3.0/node_modules/framer-motion/dist/es/utils/reduced-motion/use-reduced-motion.mjs [app-client] (ecmascript)");
 ;
 var _s = __turbopack_context__.k.signature();
 "use client";
+;
 ;
 ;
 /* Pretvara Imgur link strane u direktan link na fajl:
@@ -1479,12 +1795,12 @@ function syncExclusive() {
 }
 function LoopVideo(t0) {
     _s();
-    const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_supports$2d$color$40$7$2e$2$2e$0_$5f40$types$2b$node$40$20$2e$19$2e$43_babel$2d$plugin$2d$_69bc8fdf338b5934c4db9499814edd12$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(45);
-    if ($[0] !== "969105c0e8feae8b979b81a1ea18272204bcf754a66788bd28516d203e930c2e") {
-        for(let $i = 0; $i < 45; $i += 1){
+    const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_supports$2d$color$40$7$2e$2$2e$0_$5f40$types$2b$node$40$20$2e$19$2e$43_babel$2d$plugin$2d$_69bc8fdf338b5934c4db9499814edd12$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(52);
+    if ($[0] !== "1e5ad9a5043d852fda42a574350f066bf813d17fde55240241e9ff5419bc30b4") {
+        for(let $i = 0; $i < 52; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "969105c0e8feae8b979b81a1ea18272204bcf754a66788bd28516d203e930c2e";
+        $[0] = "1e5ad9a5043d852fda42a574350f066bf813d17fde55240241e9ff5419bc30b4";
     }
     const { src, poster, loop: t1, autoPlay: t2, showSound: t3, className: t4 } = t0;
     const loop = t1 === undefined ? true : t1;
@@ -1495,6 +1811,7 @@ function LoopVideo(t0) {
     const barRef = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_supports$2d$color$40$7$2e$2$2e$0_$5f40$types$2b$node$40$20$2e$19$2e$43_babel$2d$plugin$2d$_69bc8fdf338b5934c4db9499814edd12$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRef"])(null);
     const entryRef = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_supports$2d$color$40$7$2e$2$2e$0_$5f40$types$2b$node$40$20$2e$19$2e$43_babel$2d$plugin$2d$_69bc8fdf338b5934c4db9499814edd12$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRef"])(null);
     const userPaused = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_supports$2d$color$40$7$2e$2$2e$0_$5f40$types$2b$node$40$20$2e$19$2e$43_babel$2d$plugin$2d$_69bc8fdf338b5934c4db9499814edd12$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRef"])(false);
+    const reduce = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$framer$2d$motion$40$14$2e$7$2e$1_react$2d$dom$40$19$2e$3$2e$0_react$40$19$2e$3$2e$0_$5f$react$40$19$2e$3$2e$0$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$utils$2f$reduced$2d$motion$2f$use$2d$reduced$2d$motion$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useReducedMotion"])();
     const [playing, setPlaying] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_supports$2d$color$40$7$2e$2$2e$0_$5f40$types$2b$node$40$20$2e$19$2e$43_babel$2d$plugin$2d$_69bc8fdf338b5934c4db9499814edd12$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(false);
     const [ended, setEnded] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_supports$2d$color$40$7$2e$2$2e$0_$5f40$types$2b$node$40$20$2e$19$2e$43_babel$2d$plugin$2d$_69bc8fdf338b5934c4db9499814edd12$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(false);
     const [muted, setMuted] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_supports$2d$color$40$7$2e$2$2e$0_$5f40$types$2b$node$40$20$2e$19$2e$43_babel$2d$plugin$2d$_69bc8fdf338b5934c4db9499814edd12$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(true);
@@ -1692,22 +2009,60 @@ function LoopVideo(t0) {
         t15 = $[17];
     }
     const toggle = t15;
-    const t16 = `group relative overflow-hidden rounded-xl bg-black ${className}`;
-    let t17;
+    const t16 = reduce ? 1 : 0;
+    const t17 = reduce ? 1 : 0.5;
     let t18;
+    if ($[18] !== t16 || $[19] !== t17) {
+        t18 = {
+            opacity: t16,
+            scale: t17
+        };
+        $[18] = t16;
+        $[19] = t17;
+        $[20] = t18;
+    } else {
+        t18 = $[20];
+    }
     let t19;
     let t20;
-    if ($[18] === Symbol.for("react.memo_cache_sentinel")) {
-        t17 = ({
+    let t21;
+    if ($[21] === Symbol.for("react.memo_cache_sentinel")) {
+        t19 = {
+            opacity: 1,
+            scale: 1
+        };
+        t20 = {
+            once: true,
+            amount: 0.3
+        };
+        t21 = {
+            duration: 0.7,
+            ease: "easeOut"
+        };
+        $[21] = t19;
+        $[22] = t20;
+        $[23] = t21;
+    } else {
+        t19 = $[21];
+        t20 = $[22];
+        t21 = $[23];
+    }
+    const t22 = `group relative overflow-hidden rounded-xl bg-black ${className}`;
+    let t23;
+    let t24;
+    let t25;
+    let t26;
+    if ($[24] === Symbol.for("react.memo_cache_sentinel")) {
+        t23 = ({
             "LoopVideo[<video>.onPlay]": ()=>{
                 setPlaying(true);
                 setEnded(false);
             }
         })["LoopVideo[<video>.onPlay]"];
-        t18 = ({
+        t24 = ({
             "LoopVideo[<video>.onPause]": ()=>setPlaying(false)
         })["LoopVideo[<video>.onPause]"];
-        t19 = ({
+        t25 = ({
             "LoopVideo[<video>.onEnded]": ()=>{
                 setPlaying(false);
                 setEnded(true);
@@ -1716,22 +2071,22 @@ function LoopVideo(t0) {
                 }
             }
         })["LoopVideo[<video>.onEnded]"];
-        t20 = ({
+        t26 = ({
             "LoopVideo[<video>.onError]": ()=>setError(true)
         })["LoopVideo[<video>.onError]"];
-        $[18] = t17;
-        $[19] = t18;
-        $[20] = t19;
-        $[21] = t20;
+        $[24] = t23;
+        $[25] = t24;
+        $[26] = t25;
+        $[27] = t26;
     } else {
-        t17 = $[18];
-        t18 = $[19];
-        t19 = $[20];
-        t20 = $[21];
+        t23 = $[24];
+        t24 = $[25];
+        t25 = $[26];
+        t26 = $[27];
     }
-    let t21;
-    if ($[22] !== loop || $[23] !== poster || $[24] !== videoSrc) {
-        t21 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_supports$2d$color$40$7$2e$2$2e$0_$5f40$types$2b$node$40$20$2e$19$2e$43_babel$2d$plugin$2d$_69bc8fdf338b5934c4db9499814edd12$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("video", {
+    let t27;
+    if ($[28] !== loop || $[29] !== poster || $[30] !== videoSrc) {
+        t27 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_supports$2d$color$40$7$2e$2$2e$0_$5f40$types$2b$node$40$20$2e$19$2e$43_babel$2d$plugin$2d$_69bc8fdf338b5934c4db9499814edd12$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("video", {
             ref: videoRef,
             src: videoSrc,
             poster: poster,
@@ -1739,54 +2094,54 @@ function LoopVideo(t0) {
             muted: true,
             playsInline: true,
             preload: "metadata",
-            onPlay: t17,
-            onPause: t18,
-            onEnded: t19,
-            onError: t20,
+            onPlay: t23,
+            onPause: t24,
+            onEnded: t25,
+            onError: t26,
             className: "h-full w-full object-cover"
         }, void 0, false, {
             fileName: "[project]/components/usables/LoopVideo.tsx",
-            lineNumber: 305,
+            lineNumber: 345,
             columnNumber: 11
         }, this);
-        $[22] = loop;
-        $[23] = poster;
-        $[24] = videoSrc;
-        $[25] = t21;
+        $[28] = loop;
+        $[29] = poster;
+        $[30] = videoSrc;
+        $[31] = t27;
     } else {
-        t21 = $[25];
+        t27 = $[31];
     }
-    let t22;
-    if ($[26] !== error) {
-        t22 = error && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_supports$2d$color$40$7$2e$2$2e$0_$5f40$types$2b$node$40$20$2e$19$2e$43_babel$2d$plugin$2d$_69bc8fdf338b5934c4db9499814edd12$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+    let t28;
+    if ($[32] !== error) {
+        t28 = error && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_supports$2d$color$40$7$2e$2$2e$0_$5f40$types$2b$node$40$20$2e$19$2e$43_babel$2d$plugin$2d$_69bc8fdf338b5934c4db9499814edd12$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "absolute inset-0 grid place-items-center bg-neutral-900 p-4 text-center text-sm text-neutral-300",
             children: "Video se ne moze ucitati. Proveri link."
         }, void 0, false, {
             fileName: "[project]/components/usables/LoopVideo.tsx",
-            lineNumber: 315,
+            lineNumber: 355,
             columnNumber: 20
         }, this);
-        $[26] = error;
-        $[27] = t22;
+        $[32] = error;
+        $[33] = t28;
     } else {
-        t22 = $[27];
+        t28 = $[33];
     }
-    let t23;
-    if ($[28] === Symbol.for("react.memo_cache_sentinel")) {
-        t23 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_supports$2d$color$40$7$2e$2$2e$0_$5f40$types$2b$node$40$20$2e$19$2e$43_babel$2d$plugin$2d$_69bc8fdf338b5934c4db9499814edd12$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+    let t29;
+    if ($[34] === Symbol.for("react.memo_cache_sentinel")) {
+        t29 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_supports$2d$color$40$7$2e$2$2e$0_$5f40$types$2b$node$40$20$2e$19$2e$43_babel$2d$plugin$2d$_69bc8fdf338b5934c4db9499814edd12$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "pointer-events-none absolute inset-x-0 bottom-0 h-1/3 bg-gradient-to-t from-black/60 to-transparent opacity-0 transition-opacity duration-300 group-hover:opacity-100 group-focus-within:opacity-100"
         }, void 0, false, {
             fileName: "[project]/components/usables/LoopVideo.tsx",
-            lineNumber: 323,
+            lineNumber: 363,
             columnNumber: 11
         }, this);
-        $[28] = t23;
+        $[34] = t29;
     } else {
-        t23 = $[28];
+        t29 = $[34];
     }
-    let t24;
-    if ($[29] !== ended || $[30] !== error || $[31] !== playing || $[32] !== toggle) {
-        t24 = !error && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_supports$2d$color$40$7$2e$2$2e$0_$5f40$types$2b$node$40$20$2e$19$2e$43_babel$2d$plugin$2d$_69bc8fdf338b5934c4db9499814edd12$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+    let t30;
+    if ($[35] !== ended || $[36] !== error || $[37] !== playing || $[38] !== toggle) {
+        t30 = !error && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_supports$2d$color$40$7$2e$2$2e$0_$5f40$types$2b$node$40$20$2e$19$2e$43_babel$2d$plugin$2d$_69bc8fdf338b5934c4db9499814edd12$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
             type: "button",
             onClick: toggle,
             "aria-label": ended ? "Pusti ponovo" : playing ? "Pauziraj" : "Pusti",
@@ -1807,20 +2162,20 @@ function LoopVideo(t0) {
                             d: "M3 12a9 9 0 1 0 3-6.7"
                         }, void 0, false, {
                             fileName: "[project]/components/usables/LoopVideo.tsx",
-                            lineNumber: 330,
+                            lineNumber: 370,
                             columnNumber: 703
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_supports$2d$color$40$7$2e$2$2e$0_$5f40$types$2b$node$40$20$2e$19$2e$43_babel$2d$plugin$2d$_69bc8fdf338b5934c4db9499814edd12$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
                             d: "M3 4v5h5"
                         }, void 0, false, {
                             fileName: "[project]/components/usables/LoopVideo.tsx",
-                            lineNumber: 330,
+                            lineNumber: 370,
                             columnNumber: 737
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/usables/LoopVideo.tsx",
-                    lineNumber: 330,
+                    lineNumber: 370,
                     columnNumber: 560
                 }, this) : playing ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_supports$2d$color$40$7$2e$2$2e$0_$5f40$types$2b$node$40$20$2e$19$2e$43_babel$2d$plugin$2d$_69bc8fdf338b5934c4db9499814edd12$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
                     viewBox: "0 0 24 24",
@@ -1831,12 +2186,12 @@ function LoopVideo(t0) {
                         d: "M7 5h3.5v14H7zM13.5 5H17v14h-3.5z"
                     }, void 0, false, {
                         fileName: "[project]/components/usables/LoopVideo.tsx",
-                        lineNumber: 330,
+                        lineNumber: 370,
                         columnNumber: 845
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/components/usables/LoopVideo.tsx",
-                    lineNumber: 330,
+                    lineNumber: 370,
                     columnNumber: 777
                 }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_supports$2d$color$40$7$2e$2$2e$0_$5f40$types$2b$node$40$20$2e$19$2e$43_babel$2d$plugin$2d$_69bc8fdf338b5934c4db9499814edd12$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
                     viewBox: "0 0 24 24",
@@ -1848,35 +2203,35 @@ function LoopVideo(t0) {
                         d: "M8 5.5v13l11-6.5z"
                     }, void 0, false, {
                         fileName: "[project]/components/usables/LoopVideo.tsx",
-                        lineNumber: 330,
+                        lineNumber: 370,
                         columnNumber: 985
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/components/usables/LoopVideo.tsx",
-                    lineNumber: 330,
+                    lineNumber: 370,
                     columnNumber: 900
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/components/usables/LoopVideo.tsx",
-                lineNumber: 330,
+                lineNumber: 370,
                 columnNumber: 303
             }, this)
         }, void 0, false, {
             fileName: "[project]/components/usables/LoopVideo.tsx",
-            lineNumber: 330,
+            lineNumber: 370,
             columnNumber: 21
         }, this);
-        $[29] = ended;
-        $[30] = error;
-        $[31] = playing;
-        $[32] = toggle;
-        $[33] = t24;
+        $[35] = ended;
+        $[36] = error;
+        $[37] = playing;
+        $[38] = toggle;
+        $[39] = t30;
     } else {
-        t24 = $[33];
+        t30 = $[39];
     }
-    let t25;
-    if ($[34] !== error || $[35] !== muted || $[36] !== showSound) {
-        t25 = showSound && !error && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_supports$2d$color$40$7$2e$2$2e$0_$5f40$types$2b$node$40$20$2e$19$2e$43_babel$2d$plugin$2d$_69bc8fdf338b5934c4db9499814edd12$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+    let t31;
+    if ($[40] !== error || $[41] !== muted || $[42] !== showSound) {
+        t31 = showSound && !error && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_supports$2d$color$40$7$2e$2$2e$0_$5f40$types$2b$node$40$20$2e$19$2e$43_babel$2d$plugin$2d$_69bc8fdf338b5934c4db9499814edd12$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
             type: "button",
             onClick: {
                 "LoopVideo[<button>.onClick]": ()=>setMuted(_LoopVideoButtonOnClickSetMuted)
@@ -1899,43 +2254,43 @@ function LoopVideo(t0) {
                         stroke: "none"
                     }, void 0, false, {
                         fileName: "[project]/components/usables/LoopVideo.tsx",
-                        lineNumber: 343,
+                        lineNumber: 383,
                         columnNumber: 471
                     }, this),
                     muted ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_supports$2d$color$40$7$2e$2$2e$0_$5f40$types$2b$node$40$20$2e$19$2e$43_babel$2d$plugin$2d$_69bc8fdf338b5934c4db9499814edd12$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
                         d: "M16 9.5l5 5m0-5l-5 5"
                     }, void 0, false, {
                         fileName: "[project]/components/usables/LoopVideo.tsx",
-                        lineNumber: 343,
+                        lineNumber: 383,
                         columnNumber: 560
                     }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_supports$2d$color$40$7$2e$2$2e$0_$5f40$types$2b$node$40$20$2e$19$2e$43_babel$2d$plugin$2d$_69bc8fdf338b5934c4db9499814edd12$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
                         d: "M16 9a4 4 0 0 1 0 6"
                     }, void 0, false, {
                         fileName: "[project]/components/usables/LoopVideo.tsx",
-                        lineNumber: 343,
+                        lineNumber: 383,
                         columnNumber: 596
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/usables/LoopVideo.tsx",
-                lineNumber: 343,
+                lineNumber: 383,
                 columnNumber: 328
             }, this)
         }, void 0, false, {
             fileName: "[project]/components/usables/LoopVideo.tsx",
-            lineNumber: 341,
+            lineNumber: 381,
             columnNumber: 34
         }, this);
-        $[34] = error;
-        $[35] = muted;
-        $[36] = showSound;
-        $[37] = t25;
+        $[40] = error;
+        $[41] = muted;
+        $[42] = showSound;
+        $[43] = t31;
     } else {
-        t25 = $[37];
+        t31 = $[43];
     }
-    let t26;
-    if ($[38] === Symbol.for("react.memo_cache_sentinel")) {
-        t26 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_supports$2d$color$40$7$2e$2$2e$0_$5f40$types$2b$node$40$20$2e$19$2e$43_babel$2d$plugin$2d$_69bc8fdf338b5934c4db9499814edd12$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+    let t32;
+    if ($[44] === Symbol.for("react.memo_cache_sentinel")) {
+        t32 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_supports$2d$color$40$7$2e$2$2e$0_$5f40$types$2b$node$40$20$2e$19$2e$43_babel$2d$plugin$2d$_69bc8fdf338b5934c4db9499814edd12$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "pointer-events-none absolute inset-x-0 bottom-0 h-[3px] bg-white/20",
             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_supports$2d$color$40$7$2e$2$2e$0_$5f40$types$2b$node$40$20$2e$19$2e$43_babel$2d$plugin$2d$_69bc8fdf338b5934c4db9499814edd12$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 ref: barRef,
@@ -1945,47 +2300,56 @@ function LoopVideo(t0) {
                 }
             }, void 0, false, {
                 fileName: "[project]/components/usables/LoopVideo.tsx",
-                lineNumber: 353,
+                lineNumber: 393,
                 columnNumber: 96
             }, this)
         }, void 0, false, {
             fileName: "[project]/components/usables/LoopVideo.tsx",
-            lineNumber: 353,
+            lineNumber: 393,
             columnNumber: 11
         }, this);
-        $[38] = t26;
+        $[44] = t32;
     } else {
-        t26 = $[38];
+        t32 = $[44];
     }
-    let t27;
-    if ($[39] !== t16 || $[40] !== t21 || $[41] !== t22 || $[42] !== t24 || $[43] !== t25) {
-        t27 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_supports$2d$color$40$7$2e$2$2e$0_$5f40$types$2b$node$40$20$2e$19$2e$43_babel$2d$plugin$2d$_69bc8fdf338b5934c4db9499814edd12$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: t16,
+    let t33;
+    if ($[45] !== t18 || $[46] !== t22 || $[47] !== t27 || $[48] !== t28 || $[49] !== t30 || $[50] !== t31) {
+        t33 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_supports$2d$color$40$7$2e$2$2e$0_$5f40$types$2b$node$40$20$2e$19$2e$43_babel$2d$plugin$2d$_69bc8fdf338b5934c4db9499814edd12$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$motion$40$14$2e$7$2e$1_react$2d$dom$40$19$2e$3$2e$0_react$40$19$2e$3$2e$0_$5f$react$40$19$2e$3$2e$0$2f$node_modules$2f$motion$2f$dist$2f$es$2f$react$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__["motion"].div, {
+            initial: t18,
+            whileInView: t19,
+            viewport: t20,
+            transition: t21,
+            className: t22,
             children: [
-                t21,
-                t22,
-                t23,
-                t24,
-                t25,
-                t26
+                t27,
+                t28,
+                t29,
+                t30,
+                t31,
+                t32
             ]
         }, void 0, true, {
             fileName: "[project]/components/usables/LoopVideo.tsx",
-            lineNumber: 362,
+            lineNumber: 402,
             columnNumber: 11
         }, this);
-        $[39] = t16;
-        $[40] = t21;
-        $[41] = t22;
-        $[42] = t24;
-        $[43] = t25;
-        $[44] = t27;
+        $[45] = t18;
+        $[46] = t22;
+        $[47] = t27;
+        $[48] = t28;
+        $[49] = t30;
+        $[50] = t31;
+        $[51] = t33;
     } else {
-        t27 = $[44];
+        t33 = $[51];
     }
-    return t27;
+    return t33;
 }
-_s(LoopVideo, "L/htcMV7wTqb3Jjr9bEb5IGhomk=");
+_s(LoopVideo, "gwTfZki/fiPZ+iJtU/KXVfT+JCM=", false, function() {
+    return [
+        __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$framer$2d$motion$40$14$2e$7$2e$1_react$2d$dom$40$19$2e$3$2e$0_react$40$19$2e$3$2e$0_$5f$react$40$19$2e$3$2e$0$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$utils$2f$reduced$2d$motion$2f$use$2d$reduced$2d$motion$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useReducedMotion"]
+    ];
+});
 _c = LoopVideo;
 function _LoopVideoButtonOnClickSetMuted(m) {
     return !m;
