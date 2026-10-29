@@ -20,11 +20,11 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$usables$2f$Typ
 ;
 function AboutPage() {
     const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_supports$2d$color$40$7$2e$2$2e$0_$5f40$types$2b$node$40$20$2e$19$2e$43_babel$2d$plugin$2d$_69bc8fdf338b5934c4db9499814edd12$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(23);
-    if ($[0] !== "fc418f42a9b001c5851241aa2f8f637ef0c718fa3ea70830372a8dc2545001be") {
+    if ($[0] !== "2c955e689cc064f3c0eddb2354fd8c1b3dff0bcd76150dc2d13517fd46b32796") {
         for(let $i = 0; $i < 23; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "fc418f42a9b001c5851241aa2f8f637ef0c718fa3ea70830372a8dc2545001be";
+        $[0] = "2c955e689cc064f3c0eddb2354fd8c1b3dff0bcd76150dc2d13517fd46b32796";
     }
     let t0;
     let t1;
@@ -408,7 +408,7 @@ function AboutPage() {
     let t21;
     if ($[22] === Symbol.for("react.memo_cache_sentinel")) {
         t21 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_supports$2d$color$40$7$2e$2$2e$0_$5f40$types$2b$node$40$20$2e$19$2e$43_babel$2d$plugin$2d$_69bc8fdf338b5934c4db9499814edd12$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("main", {
-            className: "border border-b-white border-t-white border-transparent w-full h-screen flex flex-col justify-center items-center gap-10",
+            className: "border pt-10 border-b-white border-t-white border-transparent w-full h-screen flex flex-col justify-center items-center gap-10",
             id: "About",
             children: [
                 t2,
@@ -435,24 +435,24 @@ function AboutPage() {
                                     }, void 0, false, {
                                         fileName: "[project]/components/pages/About.tsx",
                                         lineNumber: 224,
-                                        columnNumber: 348
+                                        columnNumber: 354
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/components/pages/About.tsx",
                                     lineNumber: 224,
-                                    columnNumber: 322
+                                    columnNumber: 328
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/pages/About.tsx",
                             lineNumber: 224,
-                            columnNumber: 257
+                            columnNumber: 263
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/pages/About.tsx",
                     lineNumber: 224,
-                    columnNumber: 165
+                    columnNumber: 171
                 }, this)
             ]
         }, void 0, true, {

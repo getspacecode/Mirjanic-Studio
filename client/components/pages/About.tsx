@@ -7,7 +7,7 @@ import TypingText from "../usables/TypingText";
 export default function AboutPage() {
   return (
     <main
-      className="border border-b-white border-t-white border-transparent w-full h-screen flex flex-col justify-center items-center gap-10"
+      className="border pt-10 border-b-white border-t-white border-transparent w-full h-screen flex flex-col justify-center items-center gap-10"
       id="About"
     >
       {/* Center Text */}

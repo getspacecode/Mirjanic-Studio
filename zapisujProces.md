@@ -8,3 +8,8 @@ budemo promenili da ne bude about me nego nesto drugo ali videcemo to s vremenom
 -- Dimke --
 
 Za sada promenio Navbar bez logoa i imena biznisa, stavio sam samo elemente ( Home, About me, My Work i Contact ). Krenuo About page dodao inView animacije i dodao animacije, dodao sa desne strane animirani logo i usluge koje on nudi sa lepom typing animacijom a sa leve strane sam dodao sve o njemu koliko se bavi sta je naucioi tako dalje. Zavrsio sam About page i krecem u rad sa My Work Page-om.
+
+Rajko 29.10 19:16
+Dodao sam kontakt page i web3form. Za sada radi na moj neki web3forms koji sam napravio cisto da isprobam dal sve radi posle premestam na njegov
+form i proveravam da li se salje na njegov mejl i da li je sve okej. Kontakt page je za sada onako napravljen samo da isprobam al okej je kolko tolko
+posle menjamo videcemo sta kaze Nemanja.

@@ -1,4 +1,5 @@
 import AboutPage from "@/components/pages/About";
+import ContactPage from "@/components/pages/Contact";
 import HomePage from "@/components/pages/Home";
 import WorkPage from "@/components/pages/Work";
 
@@ -8,6 +9,7 @@ export default function Home() {
       <HomePage />
       <AboutPage />
       <WorkPage />
+      <ContactPage />
     </main>
   );
 }
