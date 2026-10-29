@@ -1,165 +1,25 @@
-{"timestamp":"00:00:00.732","source":"Server","level":"LOG","message":"- Cache Components enabled"}
-{"timestamp":"00:00:00.732","source":"Server","level":"LOG","message":"- Partial Prefetching enabled"}
-{"timestamp":"00:00:00.732","source":"Server","level":"LOG","message":""}
-{"timestamp":"00:00:07.657","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
-{"timestamp":"00:00:12.161","source":"Server","level":"LOG","message":"✓ Compiled in 34ms"}
-{"timestamp":"00:00:36.831","source":"Server","level":"LOG","message":"✓ Compiled in 32ms"}
-{"timestamp":"00:03:38.506","source":"Server","level":"LOG","message":"✓ Compiled in 617ms"}
-{"timestamp":"00:03:41.179","source":"Browser","level":"INFO","message":"[vidstack] Vidstack is deprecated in favour of Video.js 10, from the teams behind Vidstack, Plyr, Media Chrome, and Video.js. Security fixes only until January 2028. Migration guides: https://videojs.org/docs/framework/react/guides/migrate-from-vidstack (React) and https://videojs.org/docs/framework/html/guides/migrate-from-vidstack (web components and other frameworks)"}
-{"timestamp":"00:03:45.806","source":"Server","level":"ERROR","message":"(node:18681) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.\n(Use `node --trace-warnings ...` to show where the warning was created)"}
-{"timestamp":"00:04:02.300","source":"Browser","level":"GROUPCOLLAPSED","message":"ERROR MediaPlayer [vidstack] failed to lock screen orientation"}
-{"timestamp":"00:04:02.300","source":"Browser","level":"LOG","message":"Element: [object HTMLDivElement]"}
-{"timestamp":"00:04:02.300","source":"Browser","level":"LOG","message":"Error: NotSupportedError: screen.orientation.lock() is not available on this device."}
-{"timestamp":"00:04:02.301","source":"Browser","level":"LOG","message":"Media Context: {\"$props\":{},\"$state\":{\"...\":\"8 items not stringified\"},\"activeMenu\":null,\"ariaKeys\":{\"toggleCaptions\":\"c\",\"toggleFullscreen\":\"f\",\"toggleMuted\":\"m\",\"togglePaused\":\"k Space\",\"togglePictureInPicture\":\"i\"},\"audioTracks\":\"[object EventTarget]\",\"delegate\":\"[object Object]\",\"logger\":\"[object Object]\",\"player\":\"[object EventTarget]\",\"qualities\":\"[object EventTarget]\",\"remote\":\"[object Object]\",\"storage\":null,\"textRenderers\":\"[object Object]\",\"textTracks\":\"[object EventTarget]\"}"}
-{"timestamp":"00:04:02.301","source":"Browser","level":"LOG","message":"Trigger Event: [object Event]"}
-{"timestamp":"00:04:02.301","source":"Browser","level":"LOG","message":"Time since last log: 0ms"}
-{"timestamp":"00:04:02.301","source":"Browser","level":"GROUPCOLLAPSED","message":"Stack Trace"}
-{"timestamp":"00:04:02.301","source":"Browser","level":"TRACE","message":""}
-{"timestamp":"00:04:02.301","source":"Browser","level":"GROUPEND","message":""}
-{"timestamp":"00:04:02.301","source":"Browser","level":"GROUPEND","message":""}
-{"timestamp":"00:04:15.804","source":"Server","level":"LOG","message":"✓ Compiled in 46ms"}
-{"timestamp":"00:04:20.891","source":"Server","level":"LOG","message":"✓ Compiled in 43ms"}
-{"timestamp":"00:04:26.151","source":"Server","level":"LOG","message":"✓ Compiled in 39ms"}
-{"timestamp":"00:04:26.299","source":"Browser","level":"ERROR","message":"Uncaught TypeError: disabled is not a function"}
-{"timestamp":"00:04:26.300","source":"Server","level":"ERROR","message":"[browser] \"\\u001b[31mUncaught TypeError: disabled is not a function\\u001b[39m\""}
-{"timestamp":"00:04:32.032","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
-{"timestamp":"00:04:32.225","source":"Browser","level":"INFO","message":"[vidstack] Vidstack is deprecated in favour of Video.js 10, from the teams behind Vidstack, Plyr, Media Chrome, and Video.js. Security fixes only until January 2028. Migration guides: https://videojs.org/docs/framework/react/guides/migrate-from-vidstack (React) and https://videojs.org/docs/framework/html/guides/migrate-from-vidstack (web components and other frameworks)"}
-{"timestamp":"00:04:35.408","source":"Server","level":"LOG","message":"✓ Compiled in 42ms"}
-{"timestamp":"00:04:38.554","source":"Server","level":"LOG","message":"✓ Compiled in 31ms"}
-{"timestamp":"00:04:45.962","source":"Server","level":"LOG","message":"✓ Compiled in 32ms"}
-{"timestamp":"00:04:48.229","source":"Server","level":"LOG","message":"✓ Compiled in 33ms"}
-{"timestamp":"00:04:48.269","source":"Browser","level":"GROUPCOLLAPSED","message":"ERROR MediaPlayer Media Error"}
-{"timestamp":"00:04:48.269","source":"Browser","level":"LOG","message":"Element: [object HTMLDivElement]"}
-{"timestamp":"00:04:48.270","source":"Browser","level":"LOG","message":"Error: {\"code\":4,\"mediaError\":\"[object MediaError]\",\"message\":\"MEDIA_ELEMENT_ERROR: Format error\"}"}
-{"timestamp":"00:04:48.270","source":"Browser","level":"LOG","message":"Event: [object Event]"}
-{"timestamp":"00:04:48.270","source":"Browser","level":"LOG","message":"Context: {\"$props\":{},\"$state\":{\"...\":\"8 items not stringified\"},\"ariaKeys\":{\"toggleCaptions\":\"c\",\"toggleFullscreen\":\"f\",\"toggleMuted\":\"m\",\"togglePaused\":\"k Space\"},\"audioTracks\":\"[object EventTarget]\",\"delegate\":\"[object Object]\",\"logger\":\"[object Object]\",\"player\":\"[object EventTarget]\",\"qualities\":\"[object EventTarget]\",\"remote\":\"[object Object]\",\"storage\":null,\"textRenderers\":\"[object Object]\",\"textTracks\":\"[object EventTarget]\"}"}
-{"timestamp":"00:04:48.270","source":"Browser","level":"LOG","message":"Time since last log: 0ms"}
-{"timestamp":"00:04:48.270","source":"Browser","level":"GROUPCOLLAPSED","message":"Stack Trace"}
-{"timestamp":"00:04:48.270","source":"Browser","level":"TRACE","message":""}
-{"timestamp":"00:04:48.270","source":"Browser","level":"GROUPEND","message":""}
-{"timestamp":"00:04:48.270","source":"Browser","level":"GROUPEND","message":""}
-{"timestamp":"00:05:03.630","source":"Server","level":"LOG","message":"✓ Compiled in 39ms"}
-{"timestamp":"00:05:07.794","source":"Server","level":"LOG","message":"✓ Compiled in 33ms"}
-{"timestamp":"00:05:11.723","source":"Server","level":"LOG","message":"✓ Compiled in 34ms"}
-{"timestamp":"00:05:14.132","source":"Server","level":"LOG","message":"✓ Compiled in 29ms"}
-{"timestamp":"00:05:17.186","source":"Server","level":"LOG","message":"✓ Compiled in 29ms"}
-{"timestamp":"00:05:19.095","source":"Server","level":"LOG","message":"✓ Compiled in 27ms"}
-{"timestamp":"00:05:21.730","source":"Server","level":"LOG","message":"✓ Compiled in 35ms"}
-{"timestamp":"00:07:37.671","source":"Server","level":"LOG","message":"✓ Compiled in 37ms"}
-{"timestamp":"00:07:42.904","source":"Server","level":"LOG","message":"✓ Compiled in 60ms"}
-{"timestamp":"00:08:06.829","source":"Server","level":"LOG","message":"✓ Compiled in 32ms"}
-{"timestamp":"00:08:17.332","source":"Server","level":"LOG","message":"✓ Compiled in 29ms"}
-{"timestamp":"00:08:21.120","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
-{"timestamp":"00:09:25.507","source":"Server","level":"LOG","message":"✓ Compiled in 17ms"}
-{"timestamp":"00:09:59.955","source":"Server","level":"LOG","message":"✓ Compiled in 126ms"}
-{"timestamp":"00:10:16.566","source":"Server","level":"LOG","message":"✓ Compiled in 32ms"}
-{"timestamp":"00:10:27.176","source":"Server","level":"LOG","message":"✓ Compiled in 28ms"}
-{"timestamp":"00:10:29.596","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
-{"timestamp":"00:10:36.686","source":"Server","level":"LOG","message":"✓ Compiled in 32ms"}
-{"timestamp":"00:10:43.472","source":"Server","level":"LOG","message":"✓ Compiled in 28ms"}
-{"timestamp":"00:10:50.715","source":"Server","level":"LOG","message":"✓ Compiled in 17ms"}
-{"timestamp":"00:10:56.856","source":"Server","level":"LOG","message":"✓ Compiled in 27ms"}
-{"timestamp":"00:10:59.468","source":"Server","level":"LOG","message":"✓ Compiled in 27ms"}
-{"timestamp":"00:11:23.638","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
-{"timestamp":"00:11:56.517","source":"Server","level":"LOG","message":"✓ Compiled in 29ms"}
-{"timestamp":"00:12:13.357","source":"Server","level":"LOG","message":"✓ Compiled in 28ms"}
-{"timestamp":"00:12:17.998","source":"Server","level":"LOG","message":"✓ Compiled in 30ms"}
-{"timestamp":"00:13:19.989","source":"Server","level":"LOG","message":"✓ Compiled in 35ms"}
-{"timestamp":"00:13:33.324","source":"Server","level":"LOG","message":"✓ Compiled in 27ms"}
-{"timestamp":"00:13:38.458","source":"Server","level":"LOG","message":"✓ Compiled in 27ms"}
-{"timestamp":"00:13:42.929","source":"Server","level":"LOG","message":"✓ Compiled in 24ms"}
-{"timestamp":"00:13:54.995","source":"Server","level":"LOG","message":"✓ Compiled in 26ms"}
-{"timestamp":"00:14:06.397","source":"Server","level":"LOG","message":"✓ Compiled in 34ms"}
-{"timestamp":"00:14:22.649","source":"Server","level":"LOG","message":"✓ Compiled in 54ms"}
-{"timestamp":"00:14:33.782","source":"Server","level":"LOG","message":"✓ Compiled in 30ms"}
-{"timestamp":"00:14:40.581","source":"Server","level":"LOG","message":"✓ Compiled in 32ms"}
-{"timestamp":"00:14:45.354","source":"Server","level":"LOG","message":"✓ Compiled in 35ms"}
-{"timestamp":"00:14:54.536","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
-{"timestamp":"00:15:03.308","source":"Server","level":"LOG","message":"✓ Compiled in 32ms"}
-{"timestamp":"00:15:06.962","source":"Server","level":"LOG","message":"✓ Compiled in 43ms"}
-{"timestamp":"00:15:09.452","source":"Server","level":"LOG","message":"✓ Compiled in 38ms"}
-{"timestamp":"00:15:14.122","source":"Server","level":"LOG","message":"✓ Compiled in 31ms"}
-{"timestamp":"00:15:22.034","source":"Server","level":"LOG","message":"✓ Compiled in 34ms"}
-{"timestamp":"00:15:24.710","source":"Server","level":"LOG","message":"✓ Compiled in 48ms"}
-{"timestamp":"00:15:27.265","source":"Server","level":"LOG","message":"✓ Compiled in 39ms"}
-{"timestamp":"00:15:33.227","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
-{"timestamp":"00:16:58.895","source":"Server","level":"LOG","message":"✓ Compiled in 38ms"}
-{"timestamp":"00:17:08.686","source":"Server","level":"LOG","message":"✓ Compiled in 36ms"}
-{"timestamp":"00:17:17.628","source":"Server","level":"LOG","message":"✓ Compiled in 43ms"}
-{"timestamp":"00:17:21.262","source":"Server","level":"LOG","message":"✓ Compiled in 39ms"}
-{"timestamp":"00:17:24.639","source":"Server","level":"LOG","message":"✓ Compiled in 39ms"}
-{"timestamp":"00:18:30.568","source":"Server","level":"LOG","message":"✓ Compiled in 256ms"}
-{"timestamp":"00:18:48.698","source":"Server","level":"LOG","message":"✓ Compiled in 38ms"}
-{"timestamp":"00:18:50.711","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
-{"timestamp":"00:20:05.621","source":"Server","level":"LOG","message":"✓ Compiled in 34ms"}
-{"timestamp":"00:20:27.673","source":"Server","level":"LOG","message":"✓ Compiled in 52ms"}
-{"timestamp":"00:20:49.407","source":"Server","level":"LOG","message":"✓ Compiled in 40ms"}
-{"timestamp":"00:21:28.216","source":"Server","level":"LOG","message":"✓ Compiled in 44ms"}
-{"timestamp":"00:21:34.274","source":"Server","level":"LOG","message":"✓ Compiled in 39ms"}
-{"timestamp":"00:21:35.443","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
-{"timestamp":"00:21:37.863","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
-{"timestamp":"00:21:45.655","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
-{"timestamp":"00:21:49.142","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
-{"timestamp":"00:22:02.227","source":"Server","level":"LOG","message":"✓ Compiled in 82ms"}
-{"timestamp":"00:22:49.024","source":"Server","level":"LOG","message":"✓ Compiled in 71ms"}
-{"timestamp":"00:23:03.133","source":"Server","level":"LOG","message":"✓ Compiled in 78ms"}
-{"timestamp":"00:23:24.474","source":"Server","level":"LOG","message":"✓ Compiled in 74ms"}
-{"timestamp":"00:23:28.897","source":"Server","level":"LOG","message":"✓ Compiled in 70ms"}
-{"timestamp":"00:25:44.199","source":"Server","level":"LOG","message":"✓ Compiled in 47ms"}
-{"timestamp":"00:25:56.931","source":"Server","level":"LOG","message":"✓ Compiled in 59ms"}
-{"timestamp":"00:26:10.768","source":"Server","level":"LOG","message":"✓ Compiled in 48ms"}
-{"timestamp":"00:26:30.897","source":"Server","level":"LOG","message":"✓ Compiled in 45ms"}
-{"timestamp":"00:26:41.349","source":"Server","level":"LOG","message":"✓ Compiled in 51ms"}
-{"timestamp":"00:26:47.895","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
-{"timestamp":"00:27:01.506","source":"Server","level":"LOG","message":"✓ Compiled in 64ms"}
-{"timestamp":"00:27:09.165","source":"Server","level":"LOG","message":"✓ Compiled in 60ms"}
-{"timestamp":"00:27:22.570","source":"Server","level":"LOG","message":"✓ Compiled in 62ms"}
-{"timestamp":"00:28:11.980","source":"Server","level":"LOG","message":"✓ Compiled in 48ms"}
-{"timestamp":"00:28:41.220","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
-{"timestamp":"00:28:53.991","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
-{"timestamp":"00:33:33.067","source":"Server","level":"LOG","message":"✓ Compiled in 47ms"}
-{"timestamp":"00:33:46.551","source":"Server","level":"LOG","message":"✓ Compiled in 44ms"}
-{"timestamp":"00:34:22.577","source":"Server","level":"LOG","message":"✓ Compiled in 69ms"}
-{"timestamp":"00:34:36.685","source":"Server","level":"LOG","message":"✓ Compiled in 52ms"}
-{"timestamp":"00:35:15.604","source":"Server","level":"LOG","message":"✓ Compiled in 46ms"}
-{"timestamp":"00:35:25.169","source":"Server","level":"LOG","message":"✓ Compiled in 65ms"}
-{"timestamp":"00:35:45.442","source":"Server","level":"LOG","message":"✓ Compiled in 162ms"}
-{"timestamp":"00:36:07.091","source":"Server","level":"LOG","message":"✓ Compiled in 73ms"}
-{"timestamp":"00:37:05.103","source":"Server","level":"LOG","message":"✓ Compiled in 104ms"}
-{"timestamp":"00:49:39.771","source":"Server","level":"LOG","message":"✓ Compiled in 51ms"}
-{"timestamp":"00:49:44.552","source":"Browser","level":"ERROR","message":"⨯ unhandledRejection: NotSupportedError: The element has no supported sources.\n"}
-{"timestamp":"00:49:44.553","source":"Server","level":"ERROR","message":"[browser] \"\\u001b[31m⨯ unhandledRejection: NotSupportedError: The element has no supported sources.\\u001b[39m\\n\\u001b[31m\\u001b[39m\""}
-{"timestamp":"00:49:55.377","source":"Server","level":"LOG","message":"✓ Compiled in 40ms"}
-{"timestamp":"00:49:57.819","source":"Browser","level":"ERROR","message":"⨯ unhandledRejection: NotSupportedError: The element has no supported sources.\n"}
-{"timestamp":"00:49:57.819","source":"Server","level":"ERROR","message":"[browser] \"\\u001b[31m⨯ unhandledRejection: NotSupportedError: The element has no supported sources.\\u001b[39m\\n\\u001b[31m\\u001b[39m\""}
-{"timestamp":"00:49:59.064","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
-{"timestamp":"00:49:59.897","source":"Browser","level":"ERROR","message":"⨯ unhandledRejection: NotSupportedError: The element has no supported sources.\n"}
-{"timestamp":"00:49:59.898","source":"Server","level":"ERROR","message":"[browser] \"\\u001b[31m⨯ unhandledRejection: NotSupportedError: The element has no supported sources.\\u001b[39m\\n\\u001b[31m\\u001b[39m\""}
-{"timestamp":"00:51:39.811","source":"Server","level":"LOG","message":"✓ Compiled in 267ms"}
-{"timestamp":"00:51:49.022","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
-{"timestamp":"00:52:09.336","source":"Server","level":"LOG","message":"✓ Compiled in 61ms"}
-{"timestamp":"00:53:04.891","source":"Server","level":"LOG","message":"✓ Compiled in 48ms"}
-{"timestamp":"00:53:58.459","source":"Server","level":"LOG","message":"✓ Compiled in 48ms"}
-{"timestamp":"00:54:50.155","source":"Server","level":"LOG","message":"✓ Compiled in 48ms"}
-{"timestamp":"00:54:52.818","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
-{"timestamp":"00:57:23.470","source":"Server","level":"LOG","message":"✓ Compiled in 82ms"}
-{"timestamp":"01:02:02.107","source":"Server","level":"LOG","message":"✓ Compiled in 73ms"}
-{"timestamp":"01:02:10.252","source":"Server","level":"LOG","message":"✓ Compiled in 68ms"}
-{"timestamp":"01:03:51.839","source":"Server","level":"LOG","message":"✓ Compiled in 122ms"}
-{"timestamp":"01:03:53.182","source":"Server","level":"LOG","message":"✓ Compiled in 15ms"}
-{"timestamp":"01:03:57.108","source":"Server","level":"LOG","message":"✓ Compiled in 17ms"}
-{"timestamp":"01:04:05.298","source":"Server","level":"LOG","message":"✓ Compiled in 58ms"}
-{"timestamp":"01:04:07.597","source":"Browser","level":"ERROR","message":"./components/pages/Work.tsx:40:9\nError: Expression expected\n  38 |             loop={false}\n  39 |             className=\"md:w-120 w-80 h-120 max-w-3xl\"\n> 40 |         </div>\n     |         ^\n  41 |       </LoopVideo>\n  42 |\n  43 |       {/* Long form videos */}\n\nParsing ecmascript source code failed\n\nGenerated code of loaders [next/dist/build/babel/loader] transform of file content of components/pages/Work.tsx:\n./components/pages/Work.tsx:40:9\n  38 |             loop={false}\n  39 |             className=\"md:w-120 w-80 h-120 max-w-3xl\"\n> 40 |         </div>\n     |         ^\n  41 |       </LoopVideo>\n  42 |\n  43 |       {/* Long form videos */}\n\nImport trace:\n  Server Component:\n    ./components/pages/Work.tsx\n    ./app/page.tsx "}
-{"timestamp":"01:04:07.598","source":"Server","level":"ERROR","message":"[browser] \"./components/pages/Work.tsx:40:9\\nError: Expression expected\\n  38 |             loop={false}\\n  39 |             className=\\\"md:w-120 w-80 h-120 max-w-3xl\\\"\\n> 40 |         </div>\\n     |         ^\\n  41 |       </LoopVideo>\\n  42 |\\n  43 |       {/* Long form videos */}\\n\\nParsing ecmascript source code failed\\n\\nGenerated code of loaders [next/dist/build/babel/loader] transform of file content of components/pages/Work.tsx:\\n./components/pages/Work.tsx:40:9\\n  38 |             loop={false}\\n  39 |             className=\\\"md:w-120 w-80 h-120 max-w-3xl\\\"\\n> 40 |         </div>\\n     |         ^\\n  41 |       </LoopVideo>\\n  42 |\\n  43 |       {/* Long form videos */}\\n\\nImport trace:\\n  Server Component:\\n    ./components/pages/Work.tsx\\n    ./app/page.tsx\" \"\""}
-{"timestamp":"01:04:07.598","source":"Browser","level":"ERROR","message":"./components/pages/Work.tsx:40:10\nError: Unterminated regexp literal\n  38 |             loop={false}\n  39 |             className=\"md:w-120 w-80 h-120 max-w-3xl\"\n> 40 |         </div>\n     |          ^^^^^\n  41 |       </LoopVideo>\n  42 |\n  43 |       {/* Long form videos */}\n\nParsing ecmascript source code failed\n\nGenerated code of loaders [next/dist/build/babel/loader] transform of file content of components/pages/Work.tsx:\n./components/pages/Work.tsx:40:10\n  38 |             loop={false}\n  39 |             className=\"md:w-120 w-80 h-120 max-w-3xl\"\n> 40 |         </div>\n     |          ^^^^^\n  41 |       </LoopVideo>\n  42 |\n  43 |       {/* Long form videos */}\n\nImport trace:\n  Server Component:\n    ./components/pages/Work.tsx\n    ./app/page.tsx "}
-{"timestamp":"01:04:07.598","source":"Server","level":"ERROR","message":"[browser] \"./components/pages/Work.tsx:40:10\\nError: Unterminated regexp literal\\n  38 |             loop={false}\\n  39 |             className=\\\"md:w-120 w-80 h-120 max-w-3xl\\\"\\n> 40 |         </div>\\n     |          ^^^^^\\n  41 |       </LoopVideo>\\n  42 |\\n  43 |       {/* Long form videos */}\\n\\nParsing ecmascript source code failed\\n\\nGenerated code of loaders [next/dist/build/babel/loader] transform of file content of components/pages/Work.tsx:\\n./components/pages/Work.tsx:40:10\\n  38 |             loop={false}\\n  39 |             className=\\\"md:w-120 w-80 h-120 max-w-3xl\\\"\\n> 40 |         </div>\\n     |          ^^^^^\\n  41 |       </LoopVideo>\\n  42 |\\n  43 |       {/* Long form videos */}\\n\\nImport trace:\\n  Server Component:\\n    ./components/pages/Work.tsx\\n    ./app/page.tsx\" \"\""}
-{"timestamp":"01:04:07.599","source":"Browser","level":"ERROR","message":"./components/pages/Work.tsx:42:19\nError: Expected '</', got 'jsx text'\n  40 |             />\n  41 |         </div>\n> 42 |       </LoopVideo>\n     |                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n> 43 |\n     | ^\n> 44 |       {/* Long form videos */}\n     | ^^^^^^\n  45 |       <div className=\"flex flex-col lg:items-end items-center justify-center gap-5 lg:w-[90%] w...\n  46 |         <span className=\"text-accent-strong text-2xl font-bold\">\n  47 |           <TypingText words={[\"Long-form video\"]} loop={false} />\n\nParsing ecmascript source code failed\n\nGenerated code of loaders [next/dist/build/babel/loader] transform of file content of components/pages/Work.tsx:\n./components/pages/Work.tsx:42:19\n  40 |             />\n  41 |         </div>\n> 42 |       </LoopVideo>\n     |                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n> 43 |\n     | ^\n> 44 |       {/* Long form videos */}\n     | ^^^^^^\n  45 |       <div className=\"flex flex-col lg:items-end items-center justify-center gap-5 lg:w-[90%] w...\n  46 |         <span className=\"text-accent-strong text-2xl font-bold\">\n  47 |           <TypingText words={[\"Long-form video\"]} loop={false} />\n\nImport trace:\n  Server Component:\n    ./components/pages/Work.tsx\n    ./app/page.tsx "}
-{"timestamp":"01:04:07.599","source":"Server","level":"ERROR","message":"[browser] \"./components/pages/Work.tsx:42:19\\nError: Expected '</', got 'jsx text'\\n  40 |             />\\n  41 |         </div>\\n> 42 |       </LoopVideo>\\n     |                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\\n> 43 |\\n     | ^\\n> 44 |       {/* Long form videos */}\\n     | ^^^^^^\\n  45 |       <div className=\\\"flex flex-col lg:items-end items-center justify-center gap-5 lg:w-[90%] w...\\n  46 |         <span className=\\\"text-accent-strong text-2xl font-bold\\\">\\n  47 |           <TypingText words={[\\\"Long-form video\\\"]} loop={false} />\\n\\nParsing ecmascript source code failed\\n\\nGenerated code of loaders [next/dist/build/babel/loader] transform of file content of components/pages/Work.tsx:\\n./components/pages/Work.tsx:42:19\\n  40 |             />\\n  41 |         </div>\\n> 42 |       </LoopVideo>\\n     |                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\\n> 43 |\\n     | ^\\n> 44 |       {/* Long form videos */}\\n     | ^^^^^^\\n  45 |       <div className=\\\"flex flex-col lg:items-end items-center justify-center gap-5 lg:w-[90%] w...\\n  46 |         <span className=\\\"text-accent-strong text-2xl font-bold\\\">\\n  47 |           <TypingText words={[\\\"Long-form video\\\"]} loop={false} />\\n\\nImport trace:\\n  Server Component:\\n    ./components/pages/Work.tsx\\n    ./app/page.tsx\" \"\""}
-{"timestamp":"01:04:07.599","source":"Browser","level":"ERROR","message":"./components/pages/Work.tsx:42:19\nError: Expected '</', got 'jsx text'\n  40 |             />\n  41 |         </div>\n> 42 |       </LoopVideo>\n     |                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n> 43 |\n     | ^\n> 44 |       {/* Long form videos */}\n     | ^^^^^^\n  45 |       <div className=\"flex flex-col lg:items-end items-center justify-center gap-5 lg:w-[90%] w...\n  46 |         <span className=\"text-accent-strong text-2xl font-bold\">\n  47 |           <TypingText words={[\"Long-form video\"]} loop={false} />\n\nParsing ecmascript source code failed\n\nGenerated code of loaders [next/dist/build/babel/loader] transform of file content of components/pages/Work.tsx:\n./components/pages/Work.tsx:42:19\n  40 |             />\n  41 |         </div>\n> 42 |       </LoopVideo>\n     |                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n> 43 |\n     | ^\n> 44 |       {/* Long form videos */}\n     | ^^^^^^\n  45 |       <div className=\"flex flex-col lg:items-end items-center justify-center gap-5 lg:w-[90%] w...\n  46 |         <span className=\"text-accent-strong text-2xl font-bold\">\n  47 |           <TypingText words={[\"Long-form video\"]} loop={false} />\n\nImport trace:\n  Server Component:\n    ./components/pages/Work.tsx\n    ./app/page.tsx "}
-{"timestamp":"01:04:07.600","source":"Server","level":"ERROR","message":"[browser] \"./components/pages/Work.tsx:42:19\\nError: Expected '</', got 'jsx text'\\n  40 |             />\\n  41 |         </div>\\n> 42 |       </LoopVideo>\\n     |                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\\n> 43 |\\n     | ^\\n> 44 |       {/* Long form videos */}\\n     | ^^^^^^\\n  45 |       <div className=\\\"flex flex-col lg:items-end items-center justify-center gap-5 lg:w-[90%] w...\\n  46 |         <span className=\\\"text-accent-strong text-2xl font-bold\\\">\\n  47 |           <TypingText words={[\\\"Long-form video\\\"]} loop={false} />\\n\\nParsing ecmascript source code failed\\n\\nGenerated code of loaders [next/dist/build/babel/loader] transform of file content of components/pages/Work.tsx:\\n./components/pages/Work.tsx:42:19\\n  40 |             />\\n  41 |         </div>\\n> 42 |       </LoopVideo>\\n     |                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\\n> 43 |\\n     | ^\\n> 44 |       {/* Long form videos */}\\n     | ^^^^^^\\n  45 |       <div className=\\\"flex flex-col lg:items-end items-center justify-center gap-5 lg:w-[90%] w...\\n  46 |         <span className=\\\"text-accent-strong text-2xl font-bold\\\">\\n  47 |           <TypingText words={[\\\"Long-form video\\\"]} loop={false} />\\n\\nImport trace:\\n  Server Component:\\n    ./components/pages/Work.tsx\\n    ./app/page.tsx\" \"\""}
-{"timestamp":"01:04:07.600","source":"Browser","level":"ERROR","message":"./components/pages/Work.tsx:63:1\nError: Unexpected token. Did you mean `{'}'}` or `&rbrace;`?\n  61 |     </div>\n  62 |   );\n> 63 | }\n     | ^\n  64 |\n\nParsing ecmascript source code failed\n\nGenerated code of loaders [next/dist/build/babel/loader] transform of file content of components/pages/Work.tsx:\n./components/pages/Work.tsx:63:1\n  61 |     </div>\n  62 |   );\n> 63 | }\n     | ^\n  64 |\n\nImport trace:\n  Server Component:\n    ./components/pages/Work.tsx\n    ./app/page.tsx "}
-{"timestamp":"01:04:07.600","source":"Server","level":"ERROR","message":"[browser] \"./components/pages/Work.tsx:63:1\\nError: Unexpected token. Did you mean `{'}'}` or `&rbrace;`?\\n  61 |     </div>\\n  62 |   );\\n> 63 | }\\n     | ^\\n  64 |\\n\\nParsing ecmascript source code failed\\n\\nGenerated code of loaders [next/dist/build/babel/loader] transform of file content of components/pages/Work.tsx:\\n./components/pages/Work.tsx:63:1\\n  61 |     </div>\\n  62 |   );\\n> 63 | }\\n     | ^\\n  64 |\\n\\nImport trace:\\n  Server Component:\\n    ./components/pages/Work.tsx\\n    ./app/page.tsx\" \"\""}
-{"timestamp":"01:04:23.755","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
-{"timestamp":"01:04:37.349","source":"Server","level":"LOG","message":"✓ Compiled in 192ms"}
-{"timestamp":"01:04:39.236","source":"Server","level":"LOG","message":"✓ Compiled in 54ms"}
-{"timestamp":"01:04:44.298","source":"Server","level":"LOG","message":"✓ Compiled in 37ms"}
+{"timestamp":"00:00:00.890","source":"Server","level":"LOG","message":"- Cache Components enabled"}
+{"timestamp":"00:00:00.890","source":"Server","level":"LOG","message":"- Partial Prefetching enabled"}
+{"timestamp":"00:00:00.890","source":"Server","level":"LOG","message":""}
+{"timestamp":"00:00:07.742","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
+{"timestamp":"00:03:19.194","source":"Server","level":"LOG","message":"✓ Compiled in 211ms"}
+{"timestamp":"00:03:30.131","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
+{"timestamp":"00:04:15.233","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
+{"timestamp":"00:05:40.871","source":"Server","level":"LOG","message":"✓ Compiled in 229ms"}
+{"timestamp":"00:06:38.445","source":"Server","level":"LOG","message":"✓ Compiled in 187ms"}
+{"timestamp":"00:07:08.541","source":"Server","level":"LOG","message":"✓ Compiled in 285ms"}
+{"timestamp":"00:07:58.866","source":"Server","level":"LOG","message":"✓ Compiled in 152ms"}
+{"timestamp":"00:08:06.991","source":"Server","level":"LOG","message":"✓ Compiled in 76ms"}
+{"timestamp":"00:08:28.502","source":"Server","level":"LOG","message":"✓ Compiled in 138ms"}
+{"timestamp":"00:10:35.160","source":"Server","level":"LOG","message":"✓ Compiled in 204ms"}
+{"timestamp":"00:10:48.602","source":"Server","level":"LOG","message":"✓ Compiled in 182ms"}
+{"timestamp":"00:11:04.967","source":"Server","level":"LOG","message":"✓ Compiled in 192ms"}
+{"timestamp":"00:11:12.050","source":"Server","level":"LOG","message":"✓ Compiled in 170ms"}
+{"timestamp":"00:11:20.057","source":"Server","level":"LOG","message":"✓ Compiled in 154ms"}
+{"timestamp":"00:12:07.265","source":"Server","level":"LOG","message":"✓ Compiled in 102ms"}
+{"timestamp":"00:12:38.611","source":"Server","level":"LOG","message":"✓ Compiled in 155ms"}
+{"timestamp":"00:12:53.171","source":"Server","level":"LOG","message":"✓ Compiled in 158ms"}
+{"timestamp":"00:12:58.990","source":"Server","level":"LOG","message":"✓ Compiled in 211ms"}
+{"timestamp":"00:13:26.260","source":"Server","level":"LOG","message":"✓ Compiled in 142ms"}
+{"timestamp":"00:14:47.001","source":"Server","level":"LOG","message":"✓ Compiled in 242ms"}
+{"timestamp":"00:23:16.992","source":"Server","level":"LOG","message":"✓ Compiled in 309ms"}

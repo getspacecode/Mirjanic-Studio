@@ -18,6 +18,37 @@ function toDirectUrl(url: string): string {
   );
 }
 
+/* ---------- Jedan aktivan video na telefonu ---------- */
+
+type Entry = {
+  video: HTMLVideoElement;
+  ratio: number; // koliko je video vidljiv (0 - 1)
+  canPlay: () => boolean; // false ako je korisnik rucno pauzirao / video zavrsen
+};
+
+// Svi LoopVideo-i na stranici se upisuju ovde
+const registry = new Set<Entry>();
+
+// Telefon / tablet (ispod Tailwind "lg")
+const isMobile = () =>
+  typeof window !== "undefined" &&
+  window.matchMedia("(max-width: 1023px)").matches;
+
+// Pusti samo najvidljiviji video (mora biti bar 50% vidljiv), ostale pauziraj
+function syncExclusive() {
+  let best: Entry | null = null;
+  for (const e of registry) {
+    if (e.ratio >= 0.5 && (!best || e.ratio > best.ratio)) best = e;
+  }
+  for (const e of registry) {
+    if (e === best) {
+      if (e.canPlay()) e.video.play().catch(() => {});
+    } else {
+      e.video.pause();
+    }
+  }
+}
+
 type LoopVideoProps = {
   src: string;
   poster?: string;
@@ -37,6 +68,7 @@ export default function LoopVideo({
 }: LoopVideoProps) {
   const videoRef = useRef<HTMLVideoElement>(null);
   const barRef = useRef<HTMLDivElement>(null);
+  const entryRef = useRef<Entry | null>(null);
   const userPaused = useRef(false);
 
   const [playing, setPlaying] = useState(false);
@@ -46,23 +78,46 @@ export default function LoopVideo({
 
   const videoSrc = toDirectUrl(src);
 
-  /* Pusti samo kad je video vidljiv, pauziraj kad izadje iz ekrana */
+  /* Telefon: svi videi sa stranice dele jedan "red", igra samo najvidljiviji.
+     Desktop: svaki video se pusta cim je vidljiv (kao do sada). */
   useEffect(() => {
     const v = videoRef.current;
     if (!v) return;
+
+    const entry: Entry = {
+      video: v,
+      ratio: 0,
+      canPlay: () => autoPlay && !userPaused.current && !v.ended,
+    };
+    entryRef.current = entry;
+    registry.add(entry);
+
     const io = new IntersectionObserver(
-      ([entry]) => {
-        if (entry.isIntersecting) {
-          if (autoPlay && !userPaused.current && !v.ended)
-            v.play().catch(() => {});
+      ([e]) => {
+        entry.ratio = e.intersectionRatio;
+
+        if (isMobile()) {
+          syncExclusive();
+          return;
+        }
+
+        if (entry.ratio >= 0.4) {
+          if (entry.canPlay()) v.play().catch(() => {});
         } else {
           v.pause();
         }
       },
-      { threshold: 0.4 },
+      // fini pragovi da se ratio azurira tokom swipe-a
+      { threshold: Array.from({ length: 21 }, (_, i) => i / 20) },
     );
     io.observe(v);
-    return () => io.disconnect();
+
+    return () => {
+      io.disconnect();
+      registry.delete(entry);
+      entryRef.current = null;
+      if (isMobile()) syncExclusive(); // neko drugi moze da preuzme
+    };
   }, [autoPlay]);
 
   /* Glatka progres linija */
@@ -90,6 +145,14 @@ export default function LoopVideo({
     setError(false);
   }, [videoSrc]);
 
+  /* Kad korisnik rucno pusti video na telefonu, ostali se pauziraju */
+  const pauseOthers = () => {
+    if (!isMobile()) return;
+    for (const e of registry) {
+      if (e !== entryRef.current) e.video.pause();
+    }
+  };
+
   const toggle = () => {
     const v = videoRef.current;
     if (!v || error) return;
@@ -97,11 +160,13 @@ export default function LoopVideo({
       v.currentTime = 0;
       userPaused.current = false;
       setEnded(false);
+      pauseOthers();
       v.play().catch(() => {});
       return;
     }
     if (v.paused) {
       userPaused.current = false;
+      pauseOthers();
       v.play().catch(() => {});
     } else {
       userPaused.current = true;

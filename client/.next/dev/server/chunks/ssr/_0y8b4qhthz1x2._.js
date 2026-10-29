@@ -581,153 +581,241 @@ __turbopack_context__.s([
     ()=>WorkPage
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_supports$2d$color$40$7$2e$2$2e$0_$5f40$types$2b$node$40$20$2e$19$2e$43_babel$2d$plugin$2d$_69bc8fdf338b5934c4db9499814edd12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/.pnpm/next@16.4.3_@babel+core@7.29.7_supports-color@7.2.0__@types+node@20.19.43_babel-plugin-_69bc8fdf338b5934c4db9499814edd12/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react-jsx-dev-runtime.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_supports$2d$color$40$7$2e$2$2e$0_$5f40$types$2b$node$40$20$2e$19$2e$43_babel$2d$plugin$2d$_69bc8fdf338b5934c4db9499814edd12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/.pnpm/next@16.4.3_@babel+core@7.29.7_supports-color@7.2.0__@types+node@20.19.43_babel-plugin-_69bc8fdf338b5934c4db9499814edd12/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react.js [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$usables$2f$LoopVideo$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/components/usables/LoopVideo.tsx [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$usables$2f$TypingText$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/components/usables/TypingText.tsx [app-ssr] (ecmascript)");
 "use client";
 ;
 ;
 ;
+;
 function WorkPage() {
+    const trackRefs = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_supports$2d$color$40$7$2e$2$2e$0_$5f40$types$2b$node$40$20$2e$19$2e$43_babel$2d$plugin$2d$_69bc8fdf338b5934c4db9499814edd12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useRef"])([]);
+    const [active, setActive] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_supports$2d$color$40$7$2e$2$2e$0_$5f40$types$2b$node$40$20$2e$19$2e$43_babel$2d$plugin$2d$_69bc8fdf338b5934c4db9499814edd12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])([
+        0,
+        0,
+        0,
+        0
+    ]);
+    const sections = [
+        {
+            title: "Showreel",
+            description: "A quick look at my best work in one video.",
+            right: false,
+            videos: [
+                "https://imgur.com/cbaMjXi"
+            ],
+            slide: "w-[88%] lg:w-full lg:max-w-2xl lg:mx-auto aspect-video",
+            pad: "px-[6%]",
+            grid: "lg:grid-cols-1"
+        },
+        {
+            title: "Short-form video",
+            description: "Vertical edits for Reels, TikTok and Shorts.",
+            right: false,
+            videos: [
+                "https://imgur.com/8V4Jz5q",
+                "https://imgur.com/26H1HfT",
+                "https://imgur.com/Oy5sfWE",
+                "https://imgur.com/SBIopfS"
+            ],
+            slide: "w-[70%] lg:w-auto aspect-[9/16]",
+            pad: "px-[15%]",
+            grid: "lg:grid-cols-4",
+            stagger: true
+        },
+        {
+            title: "Long-form video",
+            description: "YouTube-style edits with pacing, story and polish.",
+            right: true,
+            videos: [
+                "https://imgur.com/eMUlDLQ",
+                "https://imgur.com/f0pbzNB"
+            ],
+            slide: "w-[88%] lg:w-auto aspect-video lg:aspect-auto lg:h-[420px]",
+            pad: "px-[6%]",
+            grid: "lg:grid-cols-5",
+            spans: [
+                "lg:col-span-3",
+                "lg:col-span-2"
+            ]
+        },
+        {
+            title: "Ads & commercials",
+            description: "High-end edits for brands, built to sell. Custom pricing per project.",
+            right: false,
+            premium: true,
+            videos: [
+                "https://imgur.com/dfoV9Cr",
+                "https://imgur.com/tXhd11Y"
+            ],
+            slide: "w-[88%] lg:w-auto aspect-video",
+            pad: "px-[6%]",
+            grid: "lg:grid-cols-2"
+        }
+    ];
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_supports$2d$color$40$7$2e$2$2e$0_$5f40$types$2b$node$40$20$2e$19$2e$43_babel$2d$plugin$2d$_69bc8fdf338b5934c4db9499814edd12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-        className: "border border-b-white border-transparent w-full flex flex-1 py-20 flex-col justify-center items-center gap-20",
+        className: "border border-b-white border-transparent w-full flex flex-1 py-20 flex-col justify-center items-center gap-24",
         id: "Work",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_supports$2d$color$40$7$2e$2$2e$0_$5f40$types$2b$node$40$20$2e$19$2e$43_babel$2d$plugin$2d$_69bc8fdf338b5934c4db9499814edd12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "text-4xl",
-                children: "My services"
-            }, void 0, false, {
-                fileName: "[project]/components/pages/Work.tsx",
-                lineNumber: 13,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_supports$2d$color$40$7$2e$2$2e$0_$5f40$types$2b$node$40$20$2e$19$2e$43_babel$2d$plugin$2d$_69bc8fdf338b5934c4db9499814edd12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "flex flex-col lg:items-start items-center justify-center gap-5 lg:w-[80%] w-full",
+                className: "flex flex-col items-center gap-3 px-4 text-center",
                 children: [
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_supports$2d$color$40$7$2e$2$2e$0_$5f40$types$2b$node$40$20$2e$19$2e$43_babel$2d$plugin$2d$_69bc8fdf338b5934c4db9499814edd12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                        className: "text-accent-strong text-2xl font-bold",
-                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_supports$2d$color$40$7$2e$2$2e$0_$5f40$types$2b$node$40$20$2e$19$2e$43_babel$2d$plugin$2d$_69bc8fdf338b5934c4db9499814edd12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$usables$2f$TypingText$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                            words: [
-                                "Short-form video"
-                            ],
-                            loop: false
-                        }, void 0, false, {
-                            fileName: "[project]/components/pages/Work.tsx",
-                            lineNumber: 18,
-                            columnNumber: 11
-                        }, this)
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_supports$2d$color$40$7$2e$2$2e$0_$5f40$types$2b$node$40$20$2e$19$2e$43_babel$2d$plugin$2d$_69bc8fdf338b5934c4db9499814edd12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                        className: "text-4xl font-semibold",
+                        children: "My services"
                     }, void 0, false, {
                         fileName: "[project]/components/pages/Work.tsx",
-                        lineNumber: 17,
+                        lineNumber: 66,
                         columnNumber: 9
                     }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_supports$2d$color$40$7$2e$2$2e$0_$5f40$types$2b$node$40$20$2e$19$2e$43_babel$2d$plugin$2d$_69bc8fdf338b5934c4db9499814edd12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "flex lg:flex-row flex-col items-center gap-5 justify-center",
-                        children: [
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_supports$2d$color$40$7$2e$2$2e$0_$5f40$types$2b$node$40$20$2e$19$2e$43_babel$2d$plugin$2d$_69bc8fdf338b5934c4db9499814edd12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$usables$2f$LoopVideo$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                src: "https://imgur.com/8V4Jz5q",
-                                loop: false,
-                                className: "md:w-100 w-80 h-120 max-w-3xl"
-                            }, void 0, false, {
-                                fileName: "[project]/components/pages/Work.tsx",
-                                lineNumber: 21,
-                                columnNumber: 11
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_supports$2d$color$40$7$2e$2$2e$0_$5f40$types$2b$node$40$20$2e$19$2e$43_babel$2d$plugin$2d$_69bc8fdf338b5934c4db9499814edd12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$usables$2f$LoopVideo$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                src: "https://imgur.com/26H1HfT",
-                                loop: false,
-                                className: "w-80 h-120 max-w-3xl"
-                            }, void 0, false, {
-                                fileName: "[project]/components/pages/Work.tsx",
-                                lineNumber: 26,
-                                columnNumber: 11
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_supports$2d$color$40$7$2e$2$2e$0_$5f40$types$2b$node$40$20$2e$19$2e$43_babel$2d$plugin$2d$_69bc8fdf338b5934c4db9499814edd12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$usables$2f$LoopVideo$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                src: "https://imgur.com/Oy5sfWE",
-                                loop: false,
-                                className: "md:w-120 w-80 h-120 max-w-3xl"
-                            }, void 0, false, {
-                                fileName: "[project]/components/pages/Work.tsx",
-                                lineNumber: 31,
-                                columnNumber: 11
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_supports$2d$color$40$7$2e$2$2e$0_$5f40$types$2b$node$40$20$2e$19$2e$43_babel$2d$plugin$2d$_69bc8fdf338b5934c4db9499814edd12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$usables$2f$LoopVideo$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                src: "https://imgur.com/SBIopfS",
-                                loop: false,
-                                className: "md:w-90 w-80 h-120 max-w-3xl"
-                            }, void 0, false, {
-                                fileName: "[project]/components/pages/Work.tsx",
-                                lineNumber: 36,
-                                columnNumber: 11
-                            }, this)
-                        ]
-                    }, void 0, true, {
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_supports$2d$color$40$7$2e$2$2e$0_$5f40$types$2b$node$40$20$2e$19$2e$43_babel$2d$plugin$2d$_69bc8fdf338b5934c4db9499814edd12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                        className: "max-w-lg text-white/60",
+                        children: "Videos edited to hold attention, from quick hooks to full stories."
+                    }, void 0, false, {
                         fileName: "[project]/components/pages/Work.tsx",
-                        lineNumber: 20,
+                        lineNumber: 67,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/pages/Work.tsx",
-                lineNumber: 16,
+                lineNumber: 65,
                 columnNumber: 7
             }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_supports$2d$color$40$7$2e$2$2e$0_$5f40$types$2b$node$40$20$2e$19$2e$43_babel$2d$plugin$2d$_69bc8fdf338b5934c4db9499814edd12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "flex flex-col lg:items-end items-center justify-center gap-5 lg:w-[90%] w-full",
-                children: [
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_supports$2d$color$40$7$2e$2$2e$0_$5f40$types$2b$node$40$20$2e$19$2e$43_babel$2d$plugin$2d$_69bc8fdf338b5934c4db9499814edd12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                        className: "text-accent-strong text-2xl font-bold",
-                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_supports$2d$color$40$7$2e$2$2e$0_$5f40$types$2b$node$40$20$2e$19$2e$43_babel$2d$plugin$2d$_69bc8fdf338b5934c4db9499814edd12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$usables$2f$TypingText$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                            words: [
-                                "Long-form video"
-                            ],
-                            loop: false
+            sections.map((s, si)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_supports$2d$color$40$7$2e$2$2e$0_$5f40$types$2b$node$40$20$2e$19$2e$43_babel$2d$plugin$2d$_69bc8fdf338b5934c4db9499814edd12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
+                    className: "relative isolate flex w-full flex-col gap-8 lg:w-[85%] lg:max-w-7xl",
+                    children: [
+                        s.premium && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_supports$2d$color$40$7$2e$2$2e$0_$5f40$types$2b$node$40$20$2e$19$2e$43_babel$2d$plugin$2d$_69bc8fdf338b5934c4db9499814edd12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "pointer-events-none absolute inset-x-[10%] top-1/3 -z-10 h-2/3 rounded-full bg-accent-strong/20 blur-3xl"
                         }, void 0, false, {
                             fileName: "[project]/components/pages/Work.tsx",
-                            lineNumber: 47,
+                            lineNumber: 79,
+                            columnNumber: 13
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_supports$2d$color$40$7$2e$2$2e$0_$5f40$types$2b$node$40$20$2e$19$2e$43_babel$2d$plugin$2d$_69bc8fdf338b5934c4db9499814edd12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: `flex flex-col items-center gap-2 px-4 text-center lg:px-0 ${s.right ? "lg:items-end lg:text-right" : "lg:items-start lg:text-left"}`,
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_supports$2d$color$40$7$2e$2$2e$0_$5f40$types$2b$node$40$20$2e$19$2e$43_babel$2d$plugin$2d$_69bc8fdf338b5934c4db9499814edd12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: `flex items-center gap-4 ${s.right ? "lg:flex-row-reverse" : ""}`,
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_supports$2d$color$40$7$2e$2$2e$0_$5f40$types$2b$node$40$20$2e$19$2e$43_babel$2d$plugin$2d$_69bc8fdf338b5934c4db9499814edd12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                            className: "text-accent-strong text-2xl font-bold",
+                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_supports$2d$color$40$7$2e$2$2e$0_$5f40$types$2b$node$40$20$2e$19$2e$43_babel$2d$plugin$2d$_69bc8fdf338b5934c4db9499814edd12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$usables$2f$TypingText$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                words: [
+                                                    s.title
+                                                ],
+                                                loop: false
+                                            }, void 0, false, {
+                                                fileName: "[project]/components/pages/Work.tsx",
+                                                lineNumber: 96,
+                                                columnNumber: 17
+                                            }, this)
+                                        }, void 0, false, {
+                                            fileName: "[project]/components/pages/Work.tsx",
+                                            lineNumber: 95,
+                                            columnNumber: 15
+                                        }, this),
+                                        s.premium && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_supports$2d$color$40$7$2e$2$2e$0_$5f40$types$2b$node$40$20$2e$19$2e$43_babel$2d$plugin$2d$_69bc8fdf338b5934c4db9499814edd12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                            className: "rounded-full border border-accent-strong/50 bg-accent-strong/10 px-3 py-1 text-xs font-semibold text-accent-strong",
+                                            children: "Premium"
+                                        }, void 0, false, {
+                                            fileName: "[project]/components/pages/Work.tsx",
+                                            lineNumber: 99,
+                                            columnNumber: 17
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/components/pages/Work.tsx",
+                                    lineNumber: 90,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_supports$2d$color$40$7$2e$2$2e$0_$5f40$types$2b$node$40$20$2e$19$2e$43_babel$2d$plugin$2d$_69bc8fdf338b5934c4db9499814edd12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                    className: "max-w-md text-sm text-white/60",
+                                    children: s.description
+                                }, void 0, false, {
+                                    fileName: "[project]/components/pages/Work.tsx",
+                                    lineNumber: 104,
+                                    columnNumber: 13
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/components/pages/Work.tsx",
+                            lineNumber: 83,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_supports$2d$color$40$7$2e$2$2e$0_$5f40$types$2b$node$40$20$2e$19$2e$43_babel$2d$plugin$2d$_69bc8fdf338b5934c4db9499814edd12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            ref: (el)=>trackRefs.current[si] = el,
+                            onScroll: (e)=>{
+                                const el = e.currentTarget;
+                                const slide = el.children[0];
+                                if (!slide) return;
+                                const i = Math.round(el.scrollLeft / (slide.offsetWidth + 16));
+                                setActive((prev)=>{
+                                    if (prev[si] === i) return prev;
+                                    const next = [
+                                        ...prev
+                                    ];
+                                    next[si] = i;
+                                    return next;
+                                });
+                            },
+                            className: `flex gap-4 overflow-x-auto snap-x snap-mandatory pb-2 ${s.pad} [scrollbar-width:none] [&::-webkit-scrollbar]:hidden lg:grid lg:gap-6 lg:overflow-visible lg:px-0 lg:pb-0 ${s.grid}`,
+                            children: s.videos.map((src, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_supports$2d$color$40$7$2e$2$2e$0_$5f40$types$2b$node$40$20$2e$19$2e$43_babel$2d$plugin$2d$_69bc8fdf338b5934c4db9499814edd12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: `group shrink-0 snap-center overflow-hidden border transition duration-300 hover:border-accent-strong/60 lg:hover:-translate-y-1 ${s.premium ? "rounded-3xl border-accent-strong/40 bg-gradient-to-b from-white/10 to-white/[0.02] p-1.5 shadow-[0_30px_80px_-30px] shadow-accent-strong/60 ring-1 ring-white/10" : "rounded-2xl border-white/10 bg-white/[0.03]"} ${s.slide} ${s.spans ? s.spans[i] : ""} ${s.stagger && i % 2 === 1 ? "lg:mt-10" : ""}`,
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_supports$2d$color$40$7$2e$2$2e$0_$5f40$types$2b$node$40$20$2e$19$2e$43_babel$2d$plugin$2d$_69bc8fdf338b5934c4db9499814edd12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$usables$2f$LoopVideo$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                        src: src,
+                                        loop: false,
+                                        className: `h-full w-full ${s.premium ? "overflow-hidden rounded-[1.1rem]" : ""}`
+                                    }, void 0, false, {
+                                        fileName: "[project]/components/pages/Work.tsx",
+                                        lineNumber: 134,
+                                        columnNumber: 17
+                                    }, this)
+                                }, src, false, {
+                                    fileName: "[project]/components/pages/Work.tsx",
+                                    lineNumber: 124,
+                                    columnNumber: 15
+                                }, this))
+                        }, void 0, false, {
+                            fileName: "[project]/components/pages/Work.tsx",
+                            lineNumber: 107,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_supports$2d$color$40$7$2e$2$2e$0_$5f40$types$2b$node$40$20$2e$19$2e$43_babel$2d$plugin$2d$_69bc8fdf338b5934c4db9499814edd12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: `justify-center gap-2 lg:hidden ${s.videos.length > 1 ? "flex" : "hidden"}`,
+                            children: s.videos.map((_, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_supports$2d$color$40$7$2e$2$2e$0_$5f40$types$2b$node$40$20$2e$19$2e$43_babel$2d$plugin$2d$_69bc8fdf338b5934c4db9499814edd12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                                    "aria-label": `Go to video ${i + 1}`,
+                                    onClick: ()=>{
+                                        const el = trackRefs.current[si];
+                                        const slide = el?.children[0];
+                                        if (!el || !slide) return;
+                                        el.scrollTo({
+                                            left: i * (slide.offsetWidth + 16),
+                                            behavior: "smooth"
+                                        });
+                                    },
+                                    className: `h-2 rounded-full transition-all duration-300 ${active[si] === i ? "w-6 bg-accent-strong" : "w-2 bg-white/30"}`
+                                }, i, false, {
+                                    fileName: "[project]/components/pages/Work.tsx",
+                                    lineNumber: 152,
+                                    columnNumber: 15
+                                }, this))
+                        }, void 0, false, {
+                            fileName: "[project]/components/pages/Work.tsx",
+                            lineNumber: 146,
                             columnNumber: 11
                         }, this)
-                    }, void 0, false, {
-                        fileName: "[project]/components/pages/Work.tsx",
-                        lineNumber: 46,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_supports$2d$color$40$7$2e$2$2e$0_$5f40$types$2b$node$40$20$2e$19$2e$43_babel$2d$plugin$2d$_69bc8fdf338b5934c4db9499814edd12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "flex lg:flex-row flex-col items-center gap-5 justify-center",
-                        children: [
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_supports$2d$color$40$7$2e$2$2e$0_$5f40$types$2b$node$40$20$2e$19$2e$43_babel$2d$plugin$2d$_69bc8fdf338b5934c4db9499814edd12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$usables$2f$LoopVideo$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                src: "https://imgur.com/eMUlDLQ",
-                                loop: false,
-                                className: "lg:w-250 w-80 h-120 max-w-3xl"
-                            }, void 0, false, {
-                                fileName: "[project]/components/pages/Work.tsx",
-                                lineNumber: 50,
-                                columnNumber: 11
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_supports$2d$color$40$7$2e$2$2e$0_$5f40$types$2b$node$40$20$2e$19$2e$43_babel$2d$plugin$2d$_69bc8fdf338b5934c4db9499814edd12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$usables$2f$LoopVideo$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                src: "https://imgur.com/f0pbzNB",
-                                loop: false,
-                                className: "lg:w-150 w-80 h-120 max-w-3xl"
-                            }, void 0, false, {
-                                fileName: "[project]/components/pages/Work.tsx",
-                                lineNumber: 55,
-                                columnNumber: 11
-                            }, this)
-                        ]
-                    }, void 0, true, {
-                        fileName: "[project]/components/pages/Work.tsx",
-                        lineNumber: 49,
-                        columnNumber: 9
-                    }, this)
-                ]
-            }, void 0, true, {
-                fileName: "[project]/components/pages/Work.tsx",
-                lineNumber: 45,
-                columnNumber: 7
-            }, this)
+                    ]
+                }, s.title, true, {
+                    fileName: "[project]/components/pages/Work.tsx",
+                    lineNumber: 73,
+                    columnNumber: 9
+                }, this))
         ]
     }, void 0, true, {
         fileName: "[project]/components/pages/Work.tsx",
-        lineNumber: 8,
+        lineNumber: 60,
         columnNumber: 5
     }, this);
 }
@@ -892,43 +980,83 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$ne
 ;
 ;
 /* Pretvara Imgur link strane u direktan link na fajl:
-   imgur.com/AbC123x       -> i.imgur.com/AbC123x.mp4
+   imgur.com/AbC123x        -> i.imgur.com/AbC123x.mp4
    i.imgur.com/AbC123x.gifv -> i.imgur.com/AbC123x.mp4
-   Svi ostali linkovi (/videos/..., R2, Bunny...) ostaju isti. */ function toDirectUrl(url) {
+   Svi ostali linkovi ostaju isti. */ function toDirectUrl(url) {
     if (!url) return url;
     const page = url.match(/^https?:\/\/(?:www\.)?imgur\.com\/(?!a\/|gallery\/)([A-Za-z0-9]+)$/);
     if (page) return `https://i.imgur.com/${page[1]}.mp4`;
     return url.replace(/^(https?:\/\/i\.imgur\.com\/[A-Za-z0-9]+)\.gifv$/, "$1.mp4");
 }
+// Svi LoopVideo-i na stranici se upisuju ovde
+const registry = new Set();
+// Telefon / tablet (ispod Tailwind "lg")
+const isMobile = ()=>("TURBOPACK compile-time value", "undefined") !== "undefined" && window.matchMedia("(max-width: 1023px)").matches;
+// Pusti samo najvidljiviji video (mora biti bar 50% vidljiv), ostale pauziraj
+function syncExclusive() {
+    let best = null;
+    for (const e of registry){
+        if (e.ratio >= 0.5 && (!best || e.ratio > best.ratio)) best = e;
+    }
+    for (const e of registry){
+        if (e === best) {
+            if (e.canPlay()) e.video.play().catch(()=>{});
+        } else {
+            e.video.pause();
+        }
+    }
+}
 function LoopVideo({ src, poster, loop = true, autoPlay = true, showSound = true, className = "" }) {
     const videoRef = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_supports$2d$color$40$7$2e$2$2e$0_$5f40$types$2b$node$40$20$2e$19$2e$43_babel$2d$plugin$2d$_69bc8fdf338b5934c4db9499814edd12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useRef"])(null);
     const barRef = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_supports$2d$color$40$7$2e$2$2e$0_$5f40$types$2b$node$40$20$2e$19$2e$43_babel$2d$plugin$2d$_69bc8fdf338b5934c4db9499814edd12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useRef"])(null);
+    const entryRef = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_supports$2d$color$40$7$2e$2$2e$0_$5f40$types$2b$node$40$20$2e$19$2e$43_babel$2d$plugin$2d$_69bc8fdf338b5934c4db9499814edd12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useRef"])(null);
     const userPaused = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_supports$2d$color$40$7$2e$2$2e$0_$5f40$types$2b$node$40$20$2e$19$2e$43_babel$2d$plugin$2d$_69bc8fdf338b5934c4db9499814edd12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useRef"])(false);
     const [playing, setPlaying] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_supports$2d$color$40$7$2e$2$2e$0_$5f40$types$2b$node$40$20$2e$19$2e$43_babel$2d$plugin$2d$_69bc8fdf338b5934c4db9499814edd12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(false);
     const [ended, setEnded] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_supports$2d$color$40$7$2e$2$2e$0_$5f40$types$2b$node$40$20$2e$19$2e$43_babel$2d$plugin$2d$_69bc8fdf338b5934c4db9499814edd12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(false);
     const [muted, setMuted] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_supports$2d$color$40$7$2e$2$2e$0_$5f40$types$2b$node$40$20$2e$19$2e$43_babel$2d$plugin$2d$_69bc8fdf338b5934c4db9499814edd12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(true);
     const [error, setError] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_supports$2d$color$40$7$2e$2$2e$0_$5f40$types$2b$node$40$20$2e$19$2e$43_babel$2d$plugin$2d$_69bc8fdf338b5934c4db9499814edd12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(false);
     const videoSrc = toDirectUrl(src);
-    /* Pusti samo kad je video vidljiv, pauziraj kad izadje iz ekrana */ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_supports$2d$color$40$7$2e$2$2e$0_$5f40$types$2b$node$40$20$2e$19$2e$43_babel$2d$plugin$2d$_69bc8fdf338b5934c4db9499814edd12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useEffect"])(()=>{
+    /* Telefon: svi videi sa stranice dele jedan "red", igra samo najvidljiviji.
+     Desktop: svaki video se pusta cim je vidljiv (kao do sada). */ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_supports$2d$color$40$7$2e$2$2e$0_$5f40$types$2b$node$40$20$2e$19$2e$43_babel$2d$plugin$2d$_69bc8fdf338b5934c4db9499814edd12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useEffect"])(()=>{
         const v = videoRef.current;
         if (!v) return;
-        const io = new IntersectionObserver(([entry])=>{
-            if (entry.isIntersecting) {
-                if (autoPlay && !userPaused.current && !v.ended) v.play().catch(()=>{});
+        const entry = {
+            video: v,
+            ratio: 0,
+            canPlay: ()=>autoPlay && !userPaused.current && !v.ended
+        };
+        entryRef.current = entry;
+        registry.add(entry);
+        const io = new IntersectionObserver(([e])=>{
+            entry.ratio = e.intersectionRatio;
+            if (isMobile()) //TURBOPACK unreachable
+            ;
+            if (entry.ratio >= 0.4) {
+                if (entry.canPlay()) v.play().catch(()=>{});
             } else {
                 v.pause();
             }
-        }, {
-            threshold: 0.4
+        }, // fini pragovi da se ratio azurira tokom swipe-a
+        {
+            threshold: Array.from({
+                length: 21
+            }, (_, i)=>i / 20)
         });
         io.observe(v);
-        return ()=>io.disconnect();
+        return ()=>{
+            io.disconnect();
+            registry.delete(entry);
+            entryRef.current = null;
+            if (isMobile()) //TURBOPACK unreachable
+            ;
+             // neko drugi moze da preuzme
+        };
     }, [
         autoPlay
     ]);
     /* Glatka progres linija */ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_supports$2d$color$40$7$2e$2$2e$0_$5f40$types$2b$node$40$20$2e$19$2e$43_babel$2d$plugin$2d$_69bc8fdf338b5934c4db9499814edd12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useEffect"])(()=>{
         if (!playing) return;
-        let id;
+        let id = 0;
         const tick = ()=>{
             const v = videoRef.current;
             if (v && barRef.current && v.duration) {
@@ -951,6 +1079,12 @@ function LoopVideo({ src, poster, loop = true, autoPlay = true, showSound = true
     }, [
         videoSrc
     ]);
+    /* Kad korisnik rucno pusti video na telefonu, ostali se pauziraju */ const pauseOthers = ()=>{
+        if (!isMobile()) return;
+        //TURBOPACK unreachable
+        ;
+        const e = undefined;
+    };
     const toggle = ()=>{
         const v = videoRef.current;
         if (!v || error) return;
@@ -958,11 +1092,13 @@ function LoopVideo({ src, poster, loop = true, autoPlay = true, showSound = true
             v.currentTime = 0;
             userPaused.current = false;
             setEnded(false);
+            pauseOthers();
             v.play().catch(()=>{});
             return;
         }
         if (v.paused) {
             userPaused.current = false;
+            pauseOthers();
             v.play().catch(()=>{});
         } else {
             userPaused.current = true;
@@ -979,7 +1115,6 @@ function LoopVideo({ src, poster, loop = true, autoPlay = true, showSound = true
                 loop: loop,
                 muted: true,
                 playsInline: true,
-                referrerPolicy: "no-referrer",
                 preload: "metadata",
                 onPlay: ()=>{
                     setPlaying(true);
@@ -995,7 +1130,7 @@ function LoopVideo({ src, poster, loop = true, autoPlay = true, showSound = true
                 className: "h-full w-full object-cover"
             }, void 0, false, {
                 fileName: "[project]/components/usables/LoopVideo.tsx",
-                lineNumber: 107,
+                lineNumber: 181,
                 columnNumber: 7
             }, this),
             error && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_supports$2d$color$40$7$2e$2$2e$0_$5f40$types$2b$node$40$20$2e$19$2e$43_babel$2d$plugin$2d$_69bc8fdf338b5934c4db9499814edd12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1003,14 +1138,14 @@ function LoopVideo({ src, poster, loop = true, autoPlay = true, showSound = true
                 children: "Video se ne moze ucitati. Proveri link."
             }, void 0, false, {
                 fileName: "[project]/components/usables/LoopVideo.tsx",
-                lineNumber: 132,
+                lineNumber: 205,
                 columnNumber: 9
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_supports$2d$color$40$7$2e$2$2e$0_$5f40$types$2b$node$40$20$2e$19$2e$43_babel$2d$plugin$2d$_69bc8fdf338b5934c4db9499814edd12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "pointer-events-none absolute inset-x-0 bottom-0 h-1/3 bg-gradient-to-t from-black/60 to-transparent opacity-0 transition-opacity duration-300 group-hover:opacity-100 group-focus-within:opacity-100"
             }, void 0, false, {
                 fileName: "[project]/components/usables/LoopVideo.tsx",
-                lineNumber: 138,
+                lineNumber: 211,
                 columnNumber: 7
             }, this),
             !error && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_supports$2d$color$40$7$2e$2$2e$0_$5f40$types$2b$node$40$20$2e$19$2e$43_babel$2d$plugin$2d$_69bc8fdf338b5934c4db9499814edd12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -1034,20 +1169,20 @@ function LoopVideo({ src, poster, loop = true, autoPlay = true, showSound = true
                                 d: "M3 12a9 9 0 1 0 3-6.7"
                             }, void 0, false, {
                                 fileName: "[project]/components/usables/LoopVideo.tsx",
-                                lineNumber: 166,
+                                lineNumber: 239,
                                 columnNumber: 17
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_supports$2d$color$40$7$2e$2$2e$0_$5f40$types$2b$node$40$20$2e$19$2e$43_babel$2d$plugin$2d$_69bc8fdf338b5934c4db9499814edd12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
                                 d: "M3 4v5h5"
                             }, void 0, false, {
                                 fileName: "[project]/components/usables/LoopVideo.tsx",
-                                lineNumber: 167,
+                                lineNumber: 240,
                                 columnNumber: 17
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/usables/LoopVideo.tsx",
-                        lineNumber: 156,
+                        lineNumber: 229,
                         columnNumber: 15
                     }, this) : playing ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_supports$2d$color$40$7$2e$2$2e$0_$5f40$types$2b$node$40$20$2e$19$2e$43_babel$2d$plugin$2d$_69bc8fdf338b5934c4db9499814edd12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
                         viewBox: "0 0 24 24",
@@ -1058,12 +1193,12 @@ function LoopVideo({ src, poster, loop = true, autoPlay = true, showSound = true
                             d: "M7 5h3.5v14H7zM13.5 5H17v14h-3.5z"
                         }, void 0, false, {
                             fileName: "[project]/components/usables/LoopVideo.tsx",
-                            lineNumber: 176,
+                            lineNumber: 249,
                             columnNumber: 17
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/usables/LoopVideo.tsx",
-                        lineNumber: 170,
+                        lineNumber: 243,
                         columnNumber: 15
                     }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_supports$2d$color$40$7$2e$2$2e$0_$5f40$types$2b$node$40$20$2e$19$2e$43_babel$2d$plugin$2d$_69bc8fdf338b5934c4db9499814edd12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
                         viewBox: "0 0 24 24",
@@ -1075,22 +1210,22 @@ function LoopVideo({ src, poster, loop = true, autoPlay = true, showSound = true
                             d: "M8 5.5v13l11-6.5z"
                         }, void 0, false, {
                             fileName: "[project]/components/usables/LoopVideo.tsx",
-                            lineNumber: 186,
+                            lineNumber: 259,
                             columnNumber: 17
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/usables/LoopVideo.tsx",
-                        lineNumber: 179,
+                        lineNumber: 252,
                         columnNumber: 15
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/components/usables/LoopVideo.tsx",
-                    lineNumber: 148,
+                    lineNumber: 221,
                     columnNumber: 11
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/components/usables/LoopVideo.tsx",
-                lineNumber: 142,
+                lineNumber: 215,
                 columnNumber: 9
             }, this),
             showSound && !error && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_supports$2d$color$40$7$2e$2$2e$0_$5f40$types$2b$node$40$20$2e$19$2e$43_babel$2d$plugin$2d$_69bc8fdf338b5934c4db9499814edd12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -1114,31 +1249,31 @@ function LoopVideo({ src, poster, loop = true, autoPlay = true, showSound = true
                             stroke: "none"
                         }, void 0, false, {
                             fileName: "[project]/components/usables/LoopVideo.tsx",
-                            lineNumber: 211,
+                            lineNumber: 284,
                             columnNumber: 13
                         }, this),
                         muted ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_supports$2d$color$40$7$2e$2$2e$0_$5f40$types$2b$node$40$20$2e$19$2e$43_babel$2d$plugin$2d$_69bc8fdf338b5934c4db9499814edd12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
                             d: "M16 9.5l5 5m0-5l-5 5"
                         }, void 0, false, {
                             fileName: "[project]/components/usables/LoopVideo.tsx",
-                            lineNumber: 217,
+                            lineNumber: 290,
                             columnNumber: 15
                         }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_supports$2d$color$40$7$2e$2$2e$0_$5f40$types$2b$node$40$20$2e$19$2e$43_babel$2d$plugin$2d$_69bc8fdf338b5934c4db9499814edd12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
                             d: "M16 9a4 4 0 0 1 0 6"
                         }, void 0, false, {
                             fileName: "[project]/components/usables/LoopVideo.tsx",
-                            lineNumber: 219,
+                            lineNumber: 292,
                             columnNumber: 15
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/usables/LoopVideo.tsx",
-                    lineNumber: 201,
+                    lineNumber: 274,
                     columnNumber: 11
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/components/usables/LoopVideo.tsx",
-                lineNumber: 195,
+                lineNumber: 268,
                 columnNumber: 9
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_supports$2d$color$40$7$2e$2$2e$0_$5f40$types$2b$node$40$20$2e$19$2e$43_babel$2d$plugin$2d$_69bc8fdf338b5934c4db9499814edd12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1151,18 +1286,18 @@ function LoopVideo({ src, poster, loop = true, autoPlay = true, showSound = true
                     }
                 }, void 0, false, {
                     fileName: "[project]/components/usables/LoopVideo.tsx",
-                    lineNumber: 227,
+                    lineNumber: 300,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/components/usables/LoopVideo.tsx",
-                lineNumber: 226,
+                lineNumber: 299,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/components/usables/LoopVideo.tsx",
-        lineNumber: 104,
+        lineNumber: 178,
         columnNumber: 5
     }, this);
 }
