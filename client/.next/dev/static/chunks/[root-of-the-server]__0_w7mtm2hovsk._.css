@@ -649,8 +649,8 @@
     width: calc(var(--spacing) * 100);
   }
 
-  .w-\[20\%\] {
-    width: 20%;
+  .w-\[50\%\] {
+    width: 50%;
   }
 
   .w-\[70\%\] {
@@ -1444,10 +1444,6 @@
 
     .lg\:w-full {
       width: 100%;
-    }
-
-    .lg\:w-max {
-      width: max-content;
     }
 
     .lg\:max-w-2xl {

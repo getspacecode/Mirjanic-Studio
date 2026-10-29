@@ -862,11 +862,11 @@ var _s = __turbopack_context__.k.signature();
 function WorkPage() {
     _s();
     const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_supports$2d$color$40$7$2e$2$2e$0_$5f40$types$2b$node$40$20$2e$19$2e$43_babel$2d$plugin$2d$_69bc8fdf338b5934c4db9499814edd12$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(6);
-    if ($[0] !== "034cea943ee060df767e24c719d96f3ffbe472b96e626bea8848d349791a0755") {
+    if ($[0] !== "faa7d9149498f9a947899c1cdf8415832d47cadcd89a292da110fb619d06e04a") {
         for(let $i = 0; $i < 6; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "034cea943ee060df767e24c719d96f3ffbe472b96e626bea8848d349791a0755";
+        $[0] = "faa7d9149498f9a947899c1cdf8415832d47cadcd89a292da110fb619d06e04a";
     }
     let t0;
     if ($[1] === Symbol.for("react.memo_cache_sentinel")) {
@@ -1077,7 +1077,7 @@ function WorkPage() {
                                     className: `flex gap-4 overflow-x-auto snap-x snap-mandatory pb-2 ${s.pad} [scrollbar-width:none] [&::-webkit-scrollbar]:hidden lg:grid lg:gap-6 lg:overflow-visible lg:px-0 lg:pb-0 ${s.grid}`,
                                     children: s.videos.map({
                                         "WorkPage[sections.map() > s.videos.map()]": (src, i_0)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_supports$2d$color$40$7$2e$2$2e$0_$5f40$types$2b$node$40$20$2e$19$2e$43_babel$2d$plugin$2d$_69bc8fdf338b5934c4db9499814edd12$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                className: `group shrink-0 snap-center overflow-hidden border transition duration-300 hover:border-accent-strong/60 lg:hover:-translate-y-1 ${s.premium ? "rounded-3xl border-accent-strong/40 bg-gradient-to-b from-white/10 to-white/[0.02] p-1.5 shadow-[0_30px_80px_-30px] shadow-accent-strong/60 ring-1 ring-white/10" : "rounded-2xl border-white/10 bg-white/[0.03]"} ${s.slide} ${s.spans ? s.spans[i_0] : ""} ${s.stagger && i_0 % 2 === 1 ? "lg:mt-10" : ""}`,
+                                                className: `group w-full shrink-0 snap-center overflow-hidden border transition duration-300 hover:border-accent-strong/60 lg:hover:-translate-y-1 ${s.premium ? "rounded-3xl border-accent-strong/40 bg-gradient-to-b from-white/10 to-white/[0.02] p-1.5 shadow-[0_30px_80px_-30px] shadow-accent-strong/60 ring-1 ring-white/10" : "rounded-2xl border-white/10 bg-white/[0.03]"} ${s.slide} ${s.spans ? s.spans[i_0] : ""} ${s.stagger && i_0 % 2 === 1 ? "lg:mt-10" : ""}`,
                                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_supports$2d$color$40$7$2e$2$2e$0_$5f40$types$2b$node$40$20$2e$19$2e$43_babel$2d$plugin$2d$_69bc8fdf338b5934c4db9499814edd12$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$usables$2f$LoopVideo$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                                     src: src,
                                                     loop: false,
@@ -1085,7 +1085,7 @@ function WorkPage() {
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/pages/Work.tsx",
                                                     lineNumber: 101,
-                                                    columnNumber: 547
+                                                    columnNumber: 554
                                                 }, this)
                                             }, src, false, {
                                                 fileName: "[project]/components/pages/Work.tsx",

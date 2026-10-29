@@ -125,7 +125,7 @@ export default function WorkPage() {
             {s.videos.map((src, i) => (
               <div
                 key={src}
-                className={`group shrink-0 snap-center overflow-hidden border transition duration-300 hover:border-accent-strong/60 lg:hover:-translate-y-1 ${
+                className={`group w-full shrink-0 snap-center overflow-hidden border transition duration-300 hover:border-accent-strong/60 lg:hover:-translate-y-1 ${
                   s.premium
                     ? "rounded-3xl border-accent-strong/40 bg-gradient-to-b from-white/10 to-white/[0.02] p-1.5 shadow-[0_30px_80px_-30px] shadow-accent-strong/60 ring-1 ring-white/10"
                     : "rounded-2xl border-white/10 bg-white/[0.03]"
