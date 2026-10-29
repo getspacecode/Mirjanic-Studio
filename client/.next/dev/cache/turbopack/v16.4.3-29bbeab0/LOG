@@ -815,3 +815,27 @@ FAM | META SEQ | SST SEQ         | RANGE
   3 | 00000424 | 00000421 SST    |                    [=====================================================================]           | 3201b4d6f29c430f-e46dc1d3815bda1b (0 MiB, fresh, 81 bytes, 4 entries, 0 tombstones)
   1 | 00000425 | 00000419 SST    | [==================================================================================================] | 002471f4994559ba-ffc845543142d45d (0 MiB, fresh, 200300 bytes, 366 entries, 0 tombstones)
   2 | 00000426 | 00000420 SST    |  [=================================================================================================] | 043d924b2dc95224-ffc845543142d45d (0 MiB, fresh, 384929 bytes, 98 entries, 0 tombstones)
+Time 2026-10-29T19:53:54.029830313Z
+Commit 00000434 2050 keys in 9ms 360µs 689ns
+FAM | META SEQ | SST SEQ         | RANGE
+  0 | 00000431 | 00000430 SST    |                                                                             O                        | c44bdff4074eecdb-c44bdff4074eecdb (0 MiB, fresh, 38 bytes, 1 entries, 0 tombstones)
+  3 | 00000432 | 00000427 SST    | [==================================================================================================] | 01e9764d6ae06d23-fe28443ccaf594dd (0 MiB, fresh, 777 bytes, 62 entries, 0 tombstones)
+  1 | 00000433 | 00000429 SST    | [==================================================================================================] | 002471f4994559ba-ffc845543142d45d (1 MiB, fresh, 1238744 bytes, 1541 entries, 0 tombstones)
+  2 | 00000434 | 00000428 SST    | [==================================================================================================] | 0029cd52e7379412-ffc845543142d45d (0 MiB, fresh, 824965 bytes, 446 entries, 0 tombstones)
+  0 | 00000436 | Compaction:
+  0 | 00000436 | MERGE (1 keys):
+  0 | 00000436 | 00000376 INPUT  |                                                                             O                        | c44bdff4074eecdb-c44bdff4074eecdb
+  0 | 00000436 | 00000384 INPUT  |                                                                             O                        | c44bdff4074eecdb-c44bdff4074eecdb
+  0 | 00000436 | 00000394 INPUT  |                                                                             O                        | c44bdff4074eecdb-c44bdff4074eecdb
+  0 | 00000436 | 00000400 INPUT  |                                                                             O                        | c44bdff4074eecdb-c44bdff4074eecdb
+  0 | 00000436 | 00000414 INPUT  |                                                                             O                        | c44bdff4074eecdb-c44bdff4074eecdb
+  0 | 00000436 | 00000422 INPUT  |                                                                             O                        | c44bdff4074eecdb-c44bdff4074eecdb
+  0 | 00000436 | 00000430 INPUT  |                                                                             O                        | c44bdff4074eecdb-c44bdff4074eecdb
+  0 | 00000436 | 00000435 OUTPUT |                                                                             O                        | c44bdff4074eecdb-c44bdff4074eecdb (compacted)
+Time 2026-10-29T19:53:54.048839728Z
+Commit 00000437 1 keys in 3ms 334µs 141ns
+FAM | META SEQ | SST SEQ         | RANGE
+  0 | 00000436 | 00000435 SST    |                                                                             O                        | c44bdff4074eecdb-c44bdff4074eecdb (0 MiB, compacted, 38 bytes, 1 entries, 0 tombstones)
+  0 | 00000436 | 00000376 00000384 00000394 00000400 00000414 00000422 00000430 OBSOLETE SST
+    |          | 00000376 00000384 00000394 00000400 00000414 00000422 00000430 SST DELETED
+    |          | 00000377 00000385 00000395 00000401 00000415 00000423 00000431 META DELETED
