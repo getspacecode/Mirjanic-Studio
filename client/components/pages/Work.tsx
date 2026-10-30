@@ -9,6 +9,7 @@ import review from "@/public/review.jpg";
 import review1 from "@/public/review1.jpg";
 import review3 from "@/public/review3.jpg";
 import Image from "next/image";
+import Link from "next/link";
 
 const GAP = 16;
 
@@ -21,7 +22,7 @@ export default function WorkPage() {
       title: "Showreel",
       description: "A quick look at my best work in one video.",
       right: false,
-      videos: ["https://imgur.com/cbaMjXi"],
+      videos: [{ url: "https://imgur.com/cbaMjXi", adv: null }],
       slide: "w-[88%] lg:w-full lg:max-w-2xl lg:mx-auto aspect-video",
       pad: "px-[6%]",
       grid: "lg:grid-cols-1",
@@ -31,10 +32,10 @@ export default function WorkPage() {
       description: "Vertical edits for Reels, TikTok and Shorts.",
       right: false,
       videos: [
-        "https://imgur.com/8V4Jz5q",
-        "https://imgur.com/26H1HfT",
-        "https://imgur.com/Oy5sfWE",
-        "https://imgur.com/SBIopfS",
+        { url: "https://imgur.com/8V4Jz5q", adv: null },
+        { url: "https://imgur.com/26H1HfT", adv: null },
+        { url: "https://imgur.com/Oy5sfWE", adv: null },
+        { url: "https://imgur.com/SBIopfS", adv: null },
       ],
       slide: "w-[70%] lg:w-auto aspect-[9/16]",
       pad: "px-[15%]",
@@ -45,7 +46,10 @@ export default function WorkPage() {
       description: "YouTube-style edits with pacing, story and polish.",
       right: true,
       carousel: true,
-      videos: ["https://imgur.com/eMUlDLQ", "https://imgur.com/f0pbzNB"],
+      videos: [
+        { url: "https://imgur.com/eMUlDLQ", adv: null },
+        { url: "https://imgur.com/f0pbzNB", adv: null },
+      ],
       slide: "w-full aspect-video",
       pad: "px-0",
       grid: "",
@@ -56,7 +60,22 @@ export default function WorkPage() {
         "High-end edits for brands, built to sell. Custom pricing per project.",
       right: false,
       premium: true,
-      videos: ["https://imgur.com/dfoV9Cr", "https://imgur.com/tXhd11Y"],
+      videos: [
+        {
+          url: "https://imgur.com/dfoV9Cr",
+          adv: {
+            link: "https://spacecodestudio.vercel.app",
+            title: "Space Code",
+          },
+        },
+        {
+          url: "https://imgur.com/tXhd11Y",
+          adv: {
+            link: "https://mirjanic-studio.vercel.app",
+            title: "Mirjanic Studio",
+          },
+        },
+      ],
       slide: "w-[70%] lg:w-auto aspect-[9/16]",
       pad: "px-[15%]",
       grid: "lg:grid-cols-4 lg:[&>*:first-child]:col-start-2",
@@ -110,9 +129,7 @@ export default function WorkPage() {
           className="relative isolate flex w-full flex-col gap-8 lg:w-[85%] lg:max-w-7xl"
         >
           {/* Glow iza premium sekcije */}
-          {s.premium && (
-            <div className="pointer-events-none absolute inset-x-[10%] top-1/3 -z-10 h-2/3 rounded-full bg-accent-strong/20 blur-3xl" />
-          )}
+          <div className="pointer-events-none absolute inset-x-[10%] top-1/3 -z-10 h-2/3 rounded-full bg-accent-strong/20 blur-3xl" />
 
           {/* Header */}
           <div
@@ -180,8 +197,8 @@ export default function WorkPage() {
             >
               {s.videos.map((src) => (
                 <div
-                  key={src}
-                  className={`group w-full shrink-0 snap-center overflow-hidden border transition duration-300 hover:border-accent-strong/60 ${
+                  key={src.url}
+                  className={`group flex flex-col w-full shrink-0 snap-center overflow-hidden border transition duration-300 hover:border-accent-strong/60 ${
                     s.carousel ? "" : "lg:hover:-translate-y-1"
                   } ${
                     s.premium
@@ -190,12 +207,68 @@ export default function WorkPage() {
                   } ${s.slide}`}
                 >
                   <LoopVideo
-                    src={src}
+                    src={src.url}
                     loop={false}
                     className={`h-full w-full ${
                       s.premium ? "overflow-hidden rounded-[1.1rem]" : ""
                     }`}
                   />
+                  {src.adv && (
+                    <Link
+                      href={src.adv.link}
+                      className="group/credit flex items-center justify-between gap-3 border-t border-white/[0.06] bg-white/[0.02] px-4 py-3 transition-colors duration-300 hover:bg-accent-strong/[0.06]"
+                    >
+                      <div className="flex min-w-0 items-center gap-3">
+                        <div className="flex size-9 shrink-0 items-center justify-center rounded-xl border border-accent-strong/20 bg-accent-strong/[0.08] text-accent-strong transition-colors duration-300 group-hover/credit:border-accent-strong/40 group-hover/credit:bg-accent-strong/[0.14]">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            strokeWidth={1.7}
+                            className="size-4.5"
+                          >
+                            <path
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
+                              d="M12 3l1.9 5.8L20 11l-6.1 2.2L12 19l-1.9-5.8L4 11l6.1-2.2L12 3z"
+                            />
+                            <path
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
+                              d="M19 15l1.1 2.9L23 19l-2.9 1.1L19 23l-1.1-2.9L15 19l2.9-1.1L19 15z"
+                            />
+                          </svg>
+                        </div>
+
+                        <div className="min-w-0">
+                          <p className="mb-0.5 text-[10px] font-semibold uppercase tracking-[0.18em] text-white/40">
+                            Crafted for
+                          </p>
+                          <p className="truncate text-sm font-medium text-white/85 transition-colors duration-300 group-hover/credit:text-accent-strong">
+                            {src.adv.title}
+                          </p>
+                        </div>
+                      </div>
+
+                      <div className="flex size-8 shrink-0 items-center justify-center rounded-full border border-white/[0.08] text-white/40 transition-all duration-300 group-hover/credit:translate-x-0.5 group-hover/credit:border-accent-strong/30 group-hover/credit:text-accent-strong">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 24 24"
+                          fill="none"
+                          stroke="currentColor"
+                          strokeWidth={1.8}
+                          className="size-4"
+                        >
+                          <path
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            d="M7 17L17 7M7 7h10v10"
+                          />
+                        </svg>
+                      </div>
+                    </Link>
+                  )}
                 </div>
               ))}
             </div>
