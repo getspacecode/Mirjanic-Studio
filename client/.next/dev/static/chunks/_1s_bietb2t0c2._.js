@@ -20,11 +20,11 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$usables$2f$Typ
 ;
 function AboutPage() {
     const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_supports$2d$color$40$7$2e$2$2e$0_$5f40$types$2b$node$40$20$2e$19$2e$43_babel$2d$plugin$2d$_69bc8fdf338b5934c4db9499814edd12$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(23);
-    if ($[0] !== "2c955e689cc064f3c0eddb2354fd8c1b3dff0bcd76150dc2d13517fd46b32796") {
+    if ($[0] !== "3b547d0e8ebf75c903b3d84bb37cb59138c1c340dbbc9a1c3a01039b759af73b") {
         for(let $i = 0; $i < 23; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "2c955e689cc064f3c0eddb2354fd8c1b3dff0bcd76150dc2d13517fd46b32796";
+        $[0] = "3b547d0e8ebf75c903b3d84bb37cb59138c1c340dbbc9a1c3a01039b759af73b";
     }
     let t0;
     let t1;
@@ -408,7 +408,7 @@ function AboutPage() {
     let t21;
     if ($[22] === Symbol.for("react.memo_cache_sentinel")) {
         t21 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_supports$2d$color$40$7$2e$2$2e$0_$5f40$types$2b$node$40$20$2e$19$2e$43_babel$2d$plugin$2d$_69bc8fdf338b5934c4db9499814edd12$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("main", {
-            className: "border pt-10 border-b-white border-t-white border-transparent w-full h-screen flex flex-col justify-center items-center gap-10",
+            className: "pt-10 w-full h-screen flex flex-col justify-center items-center gap-10",
             id: "About",
             children: [
                 t2,
@@ -435,24 +435,24 @@ function AboutPage() {
                                     }, void 0, false, {
                                         fileName: "[project]/components/pages/About.tsx",
                                         lineNumber: 224,
-                                        columnNumber: 354
+                                        columnNumber: 298
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/components/pages/About.tsx",
                                     lineNumber: 224,
-                                    columnNumber: 328
+                                    columnNumber: 272
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/pages/About.tsx",
                             lineNumber: 224,
-                            columnNumber: 263
+                            columnNumber: 207
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/pages/About.tsx",
                     lineNumber: 224,
-                    columnNumber: 171
+                    columnNumber: 115
                 }, this)
             ]
         }, void 0, true, {
@@ -1825,11 +1825,11 @@ const GAP = 16;
 function WorkPage() {
     _s();
     const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_supports$2d$color$40$7$2e$2$2e$0_$5f40$types$2b$node$40$20$2e$19$2e$43_babel$2d$plugin$2d$_69bc8fdf338b5934c4db9499814edd12$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(27);
-    if ($[0] !== "4d966b48f7bc3bb236db248b3ef08669a84b6fb9438e85f12ce580a3e4d929a2") {
+    if ($[0] !== "a5ef55eacf54764c25b34b33808c75b2e28c5a37bac036d6d6ae5e47e48d8f4f") {
         for(let $i = 0; $i < 27; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "4d966b48f7bc3bb236db248b3ef08669a84b6fb9438e85f12ce580a3e4d929a2";
+        $[0] = "a5ef55eacf54764c25b34b33808c75b2e28c5a37bac036d6d6ae5e47e48d8f4f";
     }
     let t0;
     if ($[1] === Symbol.for("react.memo_cache_sentinel")) {
@@ -1943,6 +1943,29 @@ function WorkPage() {
                 slide: "w-[70%] lg:w-auto aspect-[9/16]",
                 pad: "px-[15%]",
                 grid: "lg:grid-cols-4 lg:[&>*:first-child]:col-start-2"
+            },
+            {
+                title: "Thumbnails",
+                description: "Click-worthy thumbnails designed to boost your CTR.",
+                right: false,
+                image: true,
+                videos: [
+                    {
+                        url: "https://imgur.com/ZrU3p96",
+                        adv: null
+                    },
+                    {
+                        url: "https://imgur.com/ILPH2XU",
+                        adv: null
+                    },
+                    {
+                        url: "https://imgur.com/VNeObh3",
+                        adv: null
+                    }
+                ],
+                slide: "w-full aspect-video",
+                pad: "px-0",
+                grid: "lg:grid-cols-3"
             }
         ];
         let t6;
@@ -1970,7 +1993,7 @@ function WorkPage() {
                 });
             }
         }["WorkPage[goTo]"];
-        t2 = "border border-b-white border-transparent w-full flex flex-1 py-20 flex-col justify-center items-center gap-24";
+        t2 = "w-full flex flex-1 py-20 flex-col justify-center items-center gap-24";
         t3 = "Work";
         let t7;
         if ($[10] === Symbol.for("react.memo_cache_sentinel")) {
@@ -1993,7 +2016,7 @@ function WorkPage() {
                 children: "My services"
             }, void 0, false, {
                 fileName: "[project]/components/pages/Work.tsx",
-                lineNumber: 138,
+                lineNumber: 156,
                 columnNumber: 12
             }, this);
             $[10] = t7;
@@ -2025,13 +2048,13 @@ function WorkPage() {
                         children: "Videos edited to hold attention, from quick hooks to full stories."
                     }, void 0, false, {
                         fileName: "[project]/components/pages/Work.tsx",
-                        lineNumber: 151,
+                        lineNumber: 169,
                         columnNumber: 83
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/pages/Work.tsx",
-                lineNumber: 151,
+                lineNumber: 169,
                 columnNumber: 12
             }, this);
             $[11] = t4;
@@ -2046,7 +2069,7 @@ function WorkPage() {
                             className: "pointer-events-none absolute inset-x-[10%] top-1/3 -z-10 h-2/3 rounded-full bg-accent-strong/20 blur-3xl"
                         }, void 0, false, {
                             fileName: "[project]/components/pages/Work.tsx",
-                            lineNumber: 165,
+                            lineNumber: 183,
                             columnNumber: 151
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_supports$2d$color$40$7$2e$2$2e$0_$5f40$types$2b$node$40$20$2e$19$2e$43_babel$2d$plugin$2d$_69bc8fdf338b5934c4db9499814edd12$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2064,12 +2087,12 @@ function WorkPage() {
                                                 loop: false
                                             }, void 0, false, {
                                                 fileName: "[project]/components/pages/Work.tsx",
-                                                lineNumber: 165,
+                                                lineNumber: 183,
                                                 columnNumber: 565
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/components/pages/Work.tsx",
-                                            lineNumber: 165,
+                                            lineNumber: 183,
                                             columnNumber: 509
                                         }, this),
                                         s.premium && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_supports$2d$color$40$7$2e$2$2e$0_$5f40$types$2b$node$40$20$2e$19$2e$43_babel$2d$plugin$2d$_69bc8fdf338b5934c4db9499814edd12$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$motion$40$14$2e$7$2e$1_react$2d$dom$40$19$2e$3$2e$0_react$40$19$2e$3$2e$0_$5f$react$40$19$2e$3$2e$0$2f$node_modules$2f$motion$2f$dist$2f$es$2f$react$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__["motion"].span, {
@@ -2092,13 +2115,13 @@ function WorkPage() {
                                             children: "Premium"
                                         }, void 0, false, {
                                             fileName: "[project]/components/pages/Work.tsx",
-                                            lineNumber: 165,
+                                            lineNumber: 183,
                                             columnNumber: 631
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/pages/Work.tsx",
-                                    lineNumber: 165,
+                                    lineNumber: 183,
                                     columnNumber: 426
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_supports$2d$color$40$7$2e$2$2e$0_$5f40$types$2b$node$40$20$2e$19$2e$43_babel$2d$plugin$2d$_69bc8fdf338b5934c4db9499814edd12$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$motion$40$14$2e$7$2e$1_react$2d$dom$40$19$2e$3$2e$0_react$40$19$2e$3$2e$0_$5f$react$40$19$2e$3$2e$0$2f$node_modules$2f$motion$2f$dist$2f$es$2f$react$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__["motion"].p, {
@@ -2121,13 +2144,13 @@ function WorkPage() {
                                     children: s.description
                                 }, void 0, false, {
                                     fileName: "[project]/components/pages/Work.tsx",
-                                    lineNumber: 173,
+                                    lineNumber: 191,
                                     columnNumber: 171
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/pages/Work.tsx",
-                            lineNumber: 165,
+                            lineNumber: 183,
                             columnNumber: 275
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_supports$2d$color$40$7$2e$2$2e$0_$5f40$types$2b$node$40$20$2e$19$2e$43_babel$2d$plugin$2d$_69bc8fdf338b5934c4db9499814edd12$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2166,14 +2189,24 @@ function WorkPage() {
                                         "WorkPage[sections.map() > s.videos.map()]": (src)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_supports$2d$color$40$7$2e$2$2e$0_$5f40$types$2b$node$40$20$2e$19$2e$43_babel$2d$plugin$2d$_69bc8fdf338b5934c4db9499814edd12$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                 className: `group flex flex-col w-full shrink-0 snap-center overflow-hidden border transition duration-300 hover:border-accent-strong/60 ${s.carousel ? "" : "lg:hover:-translate-y-1"} ${s.premium ? "rounded-3xl border-accent-strong/40 bg-gradient-to-b from-white/10 to-white/[0.02] p-1.5 shadow-[0_30px_80px_-30px] shadow-accent-strong/60 ring-1 ring-white/10" : "rounded-2xl border-white/10 bg-white/[0.03]"} ${s.slide}`,
                                                 children: [
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_supports$2d$color$40$7$2e$2$2e$0_$5f40$types$2b$node$40$20$2e$19$2e$43_babel$2d$plugin$2d$_69bc8fdf338b5934c4db9499814edd12$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$usables$2f$LoopVideo$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                                    s.image ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_supports$2d$color$40$7$2e$2$2e$0_$5f40$types$2b$node$40$20$2e$19$2e$43_babel$2d$plugin$2d$_69bc8fdf338b5934c4db9499814edd12$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_supports$2d$color$40$7$2e$2$2e$0_$5f40$types$2b$node$40$20$2e$19$2e$43_babel$2d$plugin$2d$_69bc8fdf338b5934c4db9499814edd12$2f$node_modules$2f$next$2f$dist$2f$client$2f$image$2d$component$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__Image__as__default$3e$__["default"], {
+                                                        src: src.url,
+                                                        alt: "Thumbnails",
+                                                        loading: "lazy",
+                                                        fill: true,
+                                                        className: "h-full w-full object-cover"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/components/pages/Work.tsx",
+                                                        lineNumber: 223,
+                                                        columnNumber: 520
+                                                    }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_supports$2d$color$40$7$2e$2$2e$0_$5f40$types$2b$node$40$20$2e$19$2e$43_babel$2d$plugin$2d$_69bc8fdf338b5934c4db9499814edd12$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$usables$2f$LoopVideo$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                                         src: src.url,
                                                         loop: false,
                                                         className: `h-full w-full ${s.premium ? "overflow-hidden rounded-[1.1rem]" : ""}`
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/pages/Work.tsx",
-                                                        lineNumber: 205,
-                                                        columnNumber: 509
+                                                        lineNumber: 223,
+                                                        columnNumber: 629
                                                     }, this),
                                                     src.adv && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_supports$2d$color$40$7$2e$2$2e$0_$5f40$types$2b$node$40$20$2e$19$2e$43_babel$2d$plugin$2d$_69bc8fdf338b5934c4db9499814edd12$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_supports$2d$color$40$7$2e$2$2e$0_$5f40$types$2b$node$40$20$2e$19$2e$43_babel$2d$plugin$2d$_69bc8fdf338b5934c4db9499814edd12$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                                         href: src.adv.link,
@@ -2198,8 +2231,8 @@ function WorkPage() {
                                                                                     d: "M12 3l1.9 5.8L20 11l-6.1 2.2L12 19l-1.9-5.8L4 11l6.1-2.2L12 3z"
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/components/pages/Work.tsx",
-                                                                                    lineNumber: 205,
-                                                                                    columnNumber: 1301
+                                                                                    lineNumber: 223,
+                                                                                    columnNumber: 1422
                                                                                 }, this),
                                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_supports$2d$color$40$7$2e$2$2e$0_$5f40$types$2b$node$40$20$2e$19$2e$43_babel$2d$plugin$2d$_69bc8fdf338b5934c4db9499814edd12$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
                                                                                     strokeLinecap: "round",
@@ -2207,19 +2240,19 @@ function WorkPage() {
                                                                                     d: "M19 15l1.1 2.9L23 19l-2.9 1.1L19 23l-1.1-2.9L15 19l2.9-1.1L19 15z"
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/components/pages/Work.tsx",
-                                                                                    lineNumber: 205,
-                                                                                    columnNumber: 1421
+                                                                                    lineNumber: 223,
+                                                                                    columnNumber: 1542
                                                                                 }, this)
                                                                             ]
                                                                         }, void 0, true, {
                                                                             fileName: "[project]/components/pages/Work.tsx",
-                                                                            lineNumber: 205,
-                                                                            columnNumber: 1168
+                                                                            lineNumber: 223,
+                                                                            columnNumber: 1289
                                                                         }, this)
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/components/pages/Work.tsx",
-                                                                        lineNumber: 205,
-                                                                        columnNumber: 900
+                                                                        lineNumber: 223,
+                                                                        columnNumber: 1021
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_supports$2d$color$40$7$2e$2$2e$0_$5f40$types$2b$node$40$20$2e$19$2e$43_babel$2d$plugin$2d$_69bc8fdf338b5934c4db9499814edd12$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                                         className: "min-w-0",
@@ -2229,28 +2262,28 @@ function WorkPage() {
                                                                                 children: "Crafted for"
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/components/pages/Work.tsx",
-                                                                                lineNumber: 205,
-                                                                                columnNumber: 1581
+                                                                                lineNumber: 223,
+                                                                                columnNumber: 1702
                                                                             }, this),
                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_supports$2d$color$40$7$2e$2$2e$0_$5f40$types$2b$node$40$20$2e$19$2e$43_babel$2d$plugin$2d$_69bc8fdf338b5934c4db9499814edd12$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                                                 className: "truncate text-sm font-medium text-white/85 transition-colors duration-300 group-hover/credit:text-accent-strong",
                                                                                 children: src.adv.title
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/components/pages/Work.tsx",
-                                                                                lineNumber: 205,
-                                                                                columnNumber: 1686
+                                                                                lineNumber: 223,
+                                                                                columnNumber: 1807
                                                                             }, this)
                                                                         ]
                                                                     }, void 0, true, {
                                                                         fileName: "[project]/components/pages/Work.tsx",
-                                                                        lineNumber: 205,
-                                                                        columnNumber: 1556
+                                                                        lineNumber: 223,
+                                                                        columnNumber: 1677
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/components/pages/Work.tsx",
-                                                                lineNumber: 205,
-                                                                columnNumber: 851
+                                                                lineNumber: 223,
+                                                                columnNumber: 972
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_supports$2d$color$40$7$2e$2$2e$0_$5f40$types$2b$node$40$20$2e$19$2e$43_babel$2d$plugin$2d$_69bc8fdf338b5934c4db9499814edd12$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                                 className: "flex size-8 shrink-0 items-center justify-center rounded-full border border-white/[0.08] text-white/40 transition-all duration-300 group-hover/credit:translate-x-0.5 group-hover/credit:border-accent-strong/30 group-hover/credit:text-accent-strong",
@@ -2267,35 +2300,35 @@ function WorkPage() {
                                                                         d: "M7 17L17 7M7 7h10v10"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/components/pages/Work.tsx",
-                                                                        lineNumber: 205,
-                                                                        columnNumber: 2239
+                                                                        lineNumber: 223,
+                                                                        columnNumber: 2360
                                                                     }, this)
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/pages/Work.tsx",
-                                                                    lineNumber: 205,
-                                                                    columnNumber: 2108
+                                                                    lineNumber: 223,
+                                                                    columnNumber: 2229
                                                                 }, this)
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/pages/Work.tsx",
-                                                                lineNumber: 205,
-                                                                columnNumber: 1844
+                                                                lineNumber: 223,
+                                                                columnNumber: 1965
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/components/pages/Work.tsx",
-                                                        lineNumber: 205,
-                                                        columnNumber: 644
+                                                        lineNumber: 223,
+                                                        columnNumber: 765
                                                     }, this)
                                                 ]
                                             }, src.url, true, {
                                                 fileName: "[project]/components/pages/Work.tsx",
-                                                lineNumber: 205,
+                                                lineNumber: 223,
                                                 columnNumber: 67
                                             }, this)
                                     }["WorkPage[sections.map() > s.videos.map()]"])
                                 }, void 0, false, {
                                     fileName: "[project]/components/pages/Work.tsx",
-                                    lineNumber: 181,
+                                    lineNumber: 199,
                                     columnNumber: 115
                                 }, this),
                                 s.carousel && s.videos.length > 1 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_supports$2d$color$40$7$2e$2$2e$0_$5f40$types$2b$node$40$20$2e$19$2e$43_babel$2d$plugin$2d$_69bc8fdf338b5934c4db9499814edd12$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_supports$2d$color$40$7$2e$2$2e$0_$5f40$types$2b$node$40$20$2e$19$2e$43_babel$2d$plugin$2d$_69bc8fdf338b5934c4db9499814edd12$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Fragment"], {
@@ -2310,7 +2343,7 @@ function WorkPage() {
                                             children: "‹"
                                         }, void 0, false, {
                                             fileName: "[project]/components/pages/Work.tsx",
-                                            lineNumber: 206,
+                                            lineNumber: 224,
                                             columnNumber: 107
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_supports$2d$color$40$7$2e$2$2e$0_$5f40$types$2b$node$40$20$2e$19$2e$43_babel$2d$plugin$2d$_69bc8fdf338b5934c4db9499814edd12$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -2323,19 +2356,19 @@ function WorkPage() {
                                             children: "›"
                                         }, void 0, false, {
                                             fileName: "[project]/components/pages/Work.tsx",
-                                            lineNumber: 208,
+                                            lineNumber: 226,
                                             columnNumber: 337
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/pages/Work.tsx",
-                                    lineNumber: 206,
+                                    lineNumber: 224,
                                     columnNumber: 105
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/pages/Work.tsx",
-                            lineNumber: 181,
+                            lineNumber: 199,
                             columnNumber: 89
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_supports$2d$color$40$7$2e$2$2e$0_$5f40$types$2b$node$40$20$2e$19$2e$43_babel$2d$plugin$2d$_69bc8fdf338b5934c4db9499814edd12$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2349,19 +2382,19 @@ function WorkPage() {
                                         className: `h-2 rounded-full transition-all duration-300 ${active[si_0] === i_1 ? "w-6 bg-accent-strong" : "w-2 bg-white/30"}`
                                     }, i_1, false, {
                                         fileName: "[project]/components/pages/Work.tsx",
-                                        lineNumber: 211,
+                                        lineNumber: 229,
                                         columnNumber: 70
                                     }, this)
                             }["WorkPage[sections.map() > s.videos.map()]"])
                         }, void 0, false, {
                             fileName: "[project]/components/pages/Work.tsx",
-                            lineNumber: 210,
+                            lineNumber: 228,
                             columnNumber: 348
                         }, this)
                     ]
                 }, s.title, true, {
                     fileName: "[project]/components/pages/Work.tsx",
-                    lineNumber: 165,
+                    lineNumber: 183,
                     columnNumber: 48
                 }, this)
         }["WorkPage[sections.map()]"]);
@@ -2384,7 +2417,7 @@ function WorkPage() {
             className: "pointer-events-none absolute left-1/2 top-1/3 -z-10 h-2/3 w-[70%] -translate-x-1/2 rounded-full bg-accent-strong/10 blur-3xl"
         }, void 0, false, {
             fileName: "[project]/components/pages/Work.tsx",
-            lineNumber: 231,
+            lineNumber: 249,
             columnNumber: 10
         }, this);
         $[12] = t6;
@@ -2430,12 +2463,12 @@ function WorkPage() {
                         className: "fill-red-500 text-red-500"
                     }, void 0, false, {
                         fileName: "[project]/components/pages/Work.tsx",
-                        lineNumber: 260,
+                        lineNumber: 278,
                         columnNumber: 246
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/components/pages/Work.tsx",
-                    lineNumber: 260,
+                    lineNumber: 278,
                     columnNumber: 119
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$3_$40$babel$2b$core$40$7$2e$29$2e$7_supports$2d$color$40$7$2e$2$2e$0_$5f40$types$2b$node$40$20$2e$19$2e$43_babel$2d$plugin$2d$_69bc8fdf338b5934c4db9499814edd12$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -2443,13 +2476,13 @@ function WorkPage() {
                     children: "My loyal customers"
                 }, void 0, false, {
                     fileName: "[project]/components/pages/Work.tsx",
-                    lineNumber: 260,
+                    lineNumber: 278,
                     columnNumber: 317
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/components/pages/Work.tsx",
-            lineNumber: 260,
+            lineNumber: 278,
             columnNumber: 10
         }, this);
         $[15] = t9;
@@ -2476,13 +2509,13 @@ function WorkPage() {
                     children: "Real messages from clients who keep coming back."
                 }, void 0, false, {
                     fileName: "[project]/components/pages/Work.tsx",
-                    lineNumber: 269,
+                    lineNumber: 287,
                     columnNumber: 77
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/components/pages/Work.tsx",
-            lineNumber: 269,
+            lineNumber: 287,
             columnNumber: 11
         }, this);
         t11 = ({
@@ -2537,19 +2570,19 @@ function WorkPage() {
                             children: reviews.map(_WorkPageReviewsMap)
                         }, void 0, false, {
                             fileName: "[project]/components/pages/Work.tsx",
-                            lineNumber: 308,
+                            lineNumber: 326,
                             columnNumber: 167
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/pages/Work.tsx",
-                    lineNumber: 308,
+                    lineNumber: 326,
                     columnNumber: 107
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/components/pages/Work.tsx",
-            lineNumber: 308,
+            lineNumber: 326,
             columnNumber: 11
         }, this);
         $[19] = reviews;
@@ -2569,7 +2602,7 @@ function WorkPage() {
             ]
         }, void 0, true, {
             fileName: "[project]/components/pages/Work.tsx",
-            lineNumber: 316,
+            lineNumber: 334,
             columnNumber: 11
         }, this);
         $[21] = t13;
@@ -2604,17 +2637,17 @@ function _WorkPageReviewsMap(src_0, i_3) {
                 className: "h-auto w-full rounded-xl"
             }, void 0, false, {
                 fileName: "[project]/components/pages/Work.tsx",
-                lineNumber: 332,
+                lineNumber: 350,
                 columnNumber: 399
             }, this)
         }, void 0, false, {
             fileName: "[project]/components/pages/Work.tsx",
-            lineNumber: 332,
+            lineNumber: 350,
             columnNumber: 120
         }, this)
     }, i_3, false, {
         fileName: "[project]/components/pages/Work.tsx",
-        lineNumber: 329,
+        lineNumber: 347,
         columnNumber: 10
     }, this);
 }
